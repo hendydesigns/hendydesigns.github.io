@@ -1,0 +1,200 @@
+ html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .full {
+    position: relative;
+    font-family: "Playfair Display";
+    height: 75vh;
+    font-weight: 700;
+    margin-top: 35vh;
+    color: #fff;
+  }
+  
+  .full * {
+    white-space: nowrap;
+  }
+
+  .full h1 {
+    font-weight: 700;
+  }
+  
+  .spin {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background: linear-gradient(-45deg, #193B93, #382871, #7188C6, #3D69DC);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+  }
+  
+  .scroll-click {
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .scroll-click:hover {
+    letter-spacing: 5px;
+  }
+  
+  
+  @-webkit-keyframes Gradient {
+      0% {
+          background-position: 0% 50%
+      }
+      50% {
+          background-position: 100% 50%
+      }
+      100% {
+          background-position: 0% 50%
+      }
+  }
+  
+  @-moz-keyframes Gradient {
+      0% {
+          background-position: 0% 50%
+      }
+      50% {
+          background-position: 100% 50%
+      }
+      100% {
+          background-position: 0% 50%
+      }
+  }
+  
+  @keyframes Gradient {
+      0% {
+          background-position: 0% 50%
+      }
+      50% {
+          background-position: 100% 50%
+      }
+      100% {
+          background-position: 0% 50%
+      }
+  }
+  
+  .fade-neutral {
+    opacity: 0;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -webkit-transform: translate3d(80px, 0, 0);
+    transform: translate3d(80px, 0, 0);
+  }
+  
+  .splash.active .fade-swipe span {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .splash.active .fade-neutral {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .FAQ-back {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+  }
+  
+  .FAQ-content {
+    font-family: "Playfair Display";
+    overflow-x: hidden;
+  }
+  
+  .FAQ-text {
+    position: relative;
+    width: 70vw;
+    margin: 0 auto;
+    color: #fff;
+  }
+  
+  .FAQ-text h1 {
+    font-size: 10vw;
+    margin: 0;
+    white-space: nowrap;
+    font-weight: 700;
+  }
+  
+  .FAQ-text .scroll-click {
+    font-family: "Open Sans";
+    font-size: 60px;
+    text-transform: uppercase;
+  }
+  
+  .FAQ-text h2 {
+    font-size: 2vw;
+    font-weight: 700;
+    margin-top: 50px;
+  }
+  
+  .FAQ-text p {
+    font-size: 1.2vw;
+    font-family: "Open Sans";
+    padding-left: 50px
+  }
+  
+  .FAQ-text ul {
+    font-size: 1.2vw;
+    font-family: "Open Sans";
+    padding-left: 50px
+  }
+  
+  @media(max-width: 1000px) {
+    .full {
+      height: 50vh;
+      margin-top: 50vh !important;
+    }
+    .FAQ-text {
+      width: 85vw;
+    }
+    .FAQ-text .full h1 {
+      font-size: 60px;
+    }
+    .FAQ-text h3 {
+      font-size: 30px;
+    }
+    .FAQ-text h2 {
+      font-size: 22px;
+    }
+    .FAQ-text p {
+      font-size: 17px;
+      padding-left: 15px;
+    }
+    .FAQ-text ul {
+      font-size: 17px;
+      padding-left: 15px;
+    }
+    .FAQ-text .full .scroll-click {
+      font-size: 30px;
+    }
+  }
+  
+  .fade-neutral.reveal {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .FAQ-text h3 {
+    width: 100%;
+    height: 200px;
+    border-bottom: 1px solid #fff;
+    line-height: 180px;
+    font-family: "Playfair Display";
+    font-size: 7vw;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  

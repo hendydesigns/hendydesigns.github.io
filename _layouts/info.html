@@ -1,0 +1,27 @@
+---
+layout: main
+---
+
+<div class="FAQ-back">
+    <div class="spin"></div>
+</div>
+
+<div class="FAQ-content">
+    <div class="FAQ-text">
+
+      <div class="full">
+        <h1 class="fade fade-swipe"><span>{{ page.title | escape }}</span></h1>
+        <span class="fade fade-neutral scroll-click">View information &darr;</span>
+      </div>
+
+      {{ content }}
+
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+  $(".FAQ-text h2").addClass("fade fade-neutral");
+  $(".FAQ-text p").addClass("fade fade-neutral");
+  $(".FAQ-text ul li").addClass("fade fade-neutral");
+</script>

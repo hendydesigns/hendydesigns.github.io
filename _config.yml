@@ -1,6 +1,6 @@
 ---
 title: BCCO NYC
-timezone: EST
+timezone: Pacific/Pago_Pago
 collections:
   posts:
     title: Posts
@@ -11,10 +11,10 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: INFO@BCCONYC.COM
+email: info@bcconyc.com
 description: 
-baseurl: ''
-url: ''
+baseurl: 
+url: 
 theme: minima
 plugins:
 - jekyll-feed

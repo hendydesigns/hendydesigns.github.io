@@ -41,7 +41,7 @@ Whether you're looking for a quick bachelorette shirt, or a fashion photographic
 </div>
 
 
-![emb.jpg](/images/services/embroidery.jpg)
+![emb.jpg](/images/services/emb.jpg)
 <div class="services-text">
 <h2>EMBROIDERY</h2>
 Embroidery is the art of thread onto garment. We offer numerous types of embroidery including 3D "puff" embroidery for baseball caps, normal embroidery, athletic "tackle twill", as well as patches of any size and design.

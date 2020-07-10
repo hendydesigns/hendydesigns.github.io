@@ -4,201 +4,211 @@ layout: main
 
 <link rel="stylesheet" href="{{ "/assets/home.css" | relative_url }}">
 
-<div class="backing"></div>
+<div class="Landing">
 
-<div class="swiper-container main-slider loading">
-    <div class="swiper-wrapper">
-        <div class="swiper-slide">
-            <figure class="slide-bgimg" style="background-image:url({{ '/images/home-1.jpg' | relative_url }})">
-                <img src="assets/home-1.jpg" class="entity-img" />
-            </figure>
-            <div class="content">
-                <p class="title">Practice Philosophy</p>
-                <span class="caption">Learn about my personal approach to plastic surgery</span>
+
+    <!--Homepage Swiper-->
+    <div class="swiper-container main-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <figure class="slide-bgimg" style="background-image:url({{ '/images/home-1.jpg' | relative_url }})">
+                </figure>
             </div>
 
-            <a href="about.html">
-                <div class="view">
-                    <span></span>
-                    <p>View Philosphy</p>
-                </div>
-            </a>
-        </div>
-        <div class="swiper-slide">
-            <figure class="slide-bgimg" style="background-image:url({{ 'images/practice2.jpeg' | relative_url }})">
-                <img src="assets/practice2.jpeg" class="entity-img" />
-            </figure>
-            <div class="content">
-                <p class="title">Procedures for All</p>
-                <span class="caption">My practice includes all areas of plastic, reconstructive and hand surgery. I am
-                    fellowship trained in Aesthetic Surgery. I offer contemporary approaches to facial cosmetic surgery,
-                    breast enhancement/reconstruction and body contouring surgery.</span>
+            <div class="swiper-slide">
+                <figure class="slide-bgimg" style="background-image:url({{ 'images/home-2.jpg' | relative_url }})">
+                </figure>
             </div>
 
-            <a href="procedures.html">
-                <div class="view">
-                    <span></span>
-                    <p>View Procedures</p>
-                </div>
-            </a>
+            <div class="swiper-slide">
+                <figure class="slide-bgimg" style="background-image:url({{ 'images/home-3.jpg' | relative_url }})">
+                </figure>
+            </div>
+
+            <div class="swiper-slide">
+                <figure class="slide-bgimg" style="background-image:url({{ 'images/home-4.jpg' | relative_url }})">
+                </figure>
+            </div>
 
         </div>
-        <div class="swiper-slide">
-            <figure class="slide-bgimg" style="background-image:url({{ 'images/home-3.jpeg' | relative_url }})">
-                <img src="assets/home-3.jpeg" class="entity-img" />
-            </figure>
-            <div class="content">
-                <p class="title">Procedure Photos</p>
-                <span class="caption">VIEW THE GALLERY OF PERFORMED PROCEDURES</span>
+
+        <!-- Add Arrows -->
+        <div class="swiper-button-prev swiper-button-white"></div>
+        <div class="swiper-button-next swiper-button-white"></div>
+
+    </div>
+
+
+    <div class="headers">
+
+        <h1 class="page-title">BCCO NYC</h1>
+
+        <!--Homepage Info-->
+        <h3 class="sub">SPECIALIZING IN RUSH & SAME DAY T-SHIRT PRINTING</h3>
+
+        <script>
+            ! function (e, t, n, s, i, c) {
+                i = t.createElement(n), c = t.getElementsByTagName(n)[0], i.async = 1,
+                    i.src = s, c.parentNode.insertBefore(i, c)
+            }(window, document, "script", "https://www.picktime.com/assets/booking.js");
+        </script>
+
+        <div class="info">
+            <div class="orders">
+                <h2>No Minimum order quantity</h2>
+                <h2>CUT OFF TIME FOR WALK-IN CLIENTS: 5:30PM</h2>
             </div>
 
-            <a href="procedures.html">
-                <div class="view">
-                    <span></span>
-                    <p>View Photos</p>
+            <a href="https://www.picktime.com/cb069e89-9188-4a66-93fe-30e7c85cffeb" class="ptbkbtn" target="_blank"
+                style="float:none;">
+                <div class="button inline">
+                    <p>BOOK AN APPOINTMENT</p>
+                    <div class="inner"></div>
                 </div>
             </a>
-
         </div>
 
     </div>
 
-    <!-- Add Arrows -->
-    <div class="arrows-container">
-        <div class="swiper-arrow swiper-arrow-prev">
-            <div class="arrow-back"></div>
-            <span></span>
-            <span></span>
+
+    <a href="https://www.yelp.com/biz/bcco-nyc-custom-printing-new-york">
+        <div class="yelp">
+            <div class="stars" style="background-image:url({{ 'images/bccostars.png' | relative_url }})"></div>
+            <div class="view">View Yelp</div>
         </div>
-        <div class="swiper-arrow swiper-arrow-next">
-            <div class="arrow-back"></div>
-            <span></span>
-            <span></span>
-        </div>
-    </div>
+    </a>
 
 </div>
 
-<br><br><br>
+<div class="social-links">
+    <a href="https://www.instagram.com/bcconyc/?hl=en">
+        <div class="social">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            instagram
+        </div>
+    </a>
+    <a href="https://www.facebook.com/BccoNyc/">
+        <div class="social">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            facebook
+        </div>
+    </a>
+</div>
 
-<div class="welcome">
+
+<div class="services">
+    <h1 style="text-align: center; font-weight: 300; font-family: Raleway; text-transform: uppercase;">Our Services</h1>
     {{ content }}
+
 </div>
 
-<div class="products">
-    <h1>Affiliated Products</h1>
-    <a href="https://drlewisplasticsurgery.brilliantconnections.com/">
-        <div class="product">
-            <div class="product-img" style="background-image:url({{ 'images/alastin.jpg' | relative_url }})"></div>
-            <h3>Skin Medica</h3>
+<div class="Gallery-background">
+    <h1>WHO WE'VE WORKED WITH</h1>
+    <div class="Gallery">
+        <!--Flexbox Grid-->
+        <div class="Grid Grid--cols-flex5">
+            <div class="Grid-cell">
+                <div class="Gallery-content-1 revealEm"></div>
+            </div>
+            <div class="Grid-cell">
+                <div class="Gallery-content-2 revealEm"></div>
+            </div>
+            <div class="Grid-cell">
+                <div class="Gallery-content-3 revealEm"></div>
+            </div>
+            <div class="Grid-cell">
+                <div class="Gallery-content-4 revealEm"></div>
+            </div>
+            <div class="Grid-cell">
+                <div class="Gallery-content-5 revealEm"></div>
+            </div>
+            <div class="Grid-cell">
+                <div class="Gallery-content-6 revealEm"></div>
+            </div>
+            <div class="Grid-cell">
+                <div class="Gallery-content-7 revealEm"></div>
+            </div>
+            <div class="Grid-cell">
+                <div class="Gallery-content-8 revealEm"></div>
+            </div>
+            <div class="Grid-cell">
+                <div class="Gallery-content-9 revealEm"></div>
+            </div>
+            <div class="Grid-cell">
+                <div class="Gallery-content-10 revealEm"></div>
+            </div>
+            <div class="Grid-cell">
+                <div class="Gallery-content-11 revealEm"></div>
+            </div>
+            <div class="Grid-cell">
+                <div class="Gallery-content-12 revealEm"></div>
+            </div>
+            <div class="Grid-cell">
+                <div class="Gallery-content-13 revealEm"></div>
+            </div>
+            <div class="Grid-cell">
+                <div class="Gallery-content-14 revealEm"></div>
+            </div>
+            <div class="Grid-cell">
+                <div class="Gallery-content-15 revealEm"></div>
+            </div>
+            <!--Flexbox Grid-->
         </div>
-    </a>
-    <a href="www.alastin.com/drrobertlewisplasticsurgery">
-        <div class="product">
-            <div class="product-img" style="background-image:url({{ 'images/skinmedica.jpg' | relative_url }})"></div>
-            <h3>Alastin Skin Care</h3>
-        </div>
-    </a>
-</div>
-
-<div class="credentials">
-    <div class="item" style="background-image:url(https://www.magicaesthetic.com/wp-content/uploads/2017/07/5.png)">
-
-    </div>
-    <div class="item"
-        style="background-image:url(https://www.ghavamiplasticsurgery.com/wp-content/uploads/2016/04/abps.jpg)">
-
-    </div>
-    <div class="item"
-        style="background-image:url(https://ipostersessions.com/wp-content/uploads/ovsps-ohio-pennsylvania-west-virginia-kentucky-indiana-logo.png)">
-
-    </div>
-    <div class="item"
-        style="background-image:url(https://ricktimmsmd.com/wp-content/uploads/sites/7/2018/01/Fellow-American-College-of-Surgeons-logo.png)">
-
-    </div>
-    <div class="item" style="background-image: url(https://www.osma.org/aws/OSMA/cms/get_photo_news_article/234704)">
-
     </div>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<div class="map-wrapper">
+    <div class="map-info">
+        <h1>Main Office</h1>
+        <p> Ed Sullivan Office Building <br> 1697 Broadway, Suite 302, NY, NY 10019</p>
+        <h2>Hours</h2>
+        <p><span>Monday - Friday</span> 10:00am - 7:00pm</p>
+        <p><span>Saturday - Sunday</span> CLOSED</p>
+        <h2>Closest MTA Transit</h2>
+        <p>(B)(D)(E) Lines - 7th Ave Station</p>
+        <p>(N)(Q)(R) Lines - 57th St - 7th Ave Station</p>
+        <p>(1) Line - 50th Street Station</p>
+    </div>
+    <div class="mapouter">
+        <div class="gmap_canvas"><iframe width="100%" height="100%" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=1697%20BROADWAY%2C%20SUITE%20302&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                href="https://www.embedgooglemap.net/blog/best-wordpress-themes/">elementary theme</a></div>
+    </div>
+</div>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.js"></script>
 <script>
 
-    var mySwiper = new Swiper ('.testimonials', {
+    window.onload = function () {
+        $(".main-slider").addClass("active");
+        $(".headers").addClass("active");
+    }
+
+    var mySwiper = new Swiper('.main-slider', {
         // Optional parameters
         loop: true,
 
         // If we need pagination
         pagination: {
-        el: '.swiper-pagination',
+            el: '.swiper-pagination',
         },
         autoplay: {
             delay: 3000,
         },
         // Navigation arrows
         navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
         },
 
-        // And if we need scrollbar
-        scrollbar: {
-        el: '.swiper-scrollbar',
-        },
     });
 
-    // Params
-    let mainSliderSelector = '.main-slider',
-        navSliderSelector = '.nav-slider',
-        interleaveOffset = 0.5;
-
-    // Main Slider
-    let mainSliderOptions = {
-        loop: true,
-        autoplay: {
-            delay: 5000,
-        },
-        loopAdditionalSlides: 10,
-        grabCursor: true,
-        watchSlidesProgress: true,
-        navigation: {
-            nextEl: ".swiper-arrow-next",
-            prevEl: ".swiper-arrow-prev"
-        },
-        on: {
-            init: function () {
-                this.autoplay.stop();
-            },
-            imagesReady: function () {
-                this.el.classList.remove('loading');
-                //this.autoplay.start();
-            },
-            slideChangeTransitionEnd: function () {
-                let swiper = this,
-                    captions = swiper.el.querySelectorAll('.caption');
-                for (let i = 0; i < captions.length; ++i) {
-                    captions[i].classList.remove('show');
-                }
-                swiper.slides[swiper.activeIndex].querySelector('.caption').classList.add('show');
-            },
-            touchStart: function () {
-                let swiper = this;
-                for (let i = 0; i < swiper.slides.length; i++) {
-                    swiper.slides[i].style.transition = "";
-                }
-            },
-            setTransition: function (speed) {
-                let swiper = this;
-                for (let i = 0; i < swiper.slides.length; i++) {
-                    swiper.slides[i].style.transition = speed + "ms";
-                    swiper.slides[i].querySelector(".slide-bgimg").style.transition =
-                        speed + "ms";
-                }
-            }
-        }
-    };
-    let mainSlider = new Swiper(mainSliderSelector, mainSliderOptions);
+    $(".services img").each(function() {
+        $(this).wrap( "<div class='services-image'></div>" );
+    });
 
 </script>

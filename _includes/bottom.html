@@ -6,30 +6,27 @@
 
         <div class="Grid-cell">
           <div class="Footer-content-1">
-            <h2>Links</h2>
-            <ul>
-                {%- for path in page_paths -%}
-                    {%- assign my_page = site.pages | where: "path", path | first -%}
-                    {%- if my_page.title -%}
-                        <li><a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
-                    {%- endif -%}
-                {%- endfor -%}
-            </ul>
+            <h2>Contact</h2>
+            <h3>{{ site.email }}</h3>
+            <h3>(347) 836-9116</h3>
           </div>
         </div>
 
         <div class="Grid-cell">
           <div class="Footer-content-2">
-            <h2>Contact</h2>
-            <h3>{{ site.email }}</h3>
-            <h3>330-967-4224</h3>
+            <h2>Locations</h2>
+            <h3>ED SULLIVAN OFFICE BUILDING
+              1697 BROADWAY, SUITE 302, NY, NY 10019</h3>
           </div>
         </div>
 
         <div class="Grid-cell">
           <div class="Footer-content-3">
-            <h2>Locations</h2>
-            <h3>4139 BOARDMAN-CANFIELD ROAD SUITE 2 CANFIELD, OH 44406</h3>
+            <h2>Social</h2>
+            <div class="getintouchcontent">
+              <a href="https://www.facebook.com/BccoNyc/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              <a href="https://www.instagram.com/bcconyc/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </div>
           </div>
         </div>
 

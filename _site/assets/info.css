@@ -1,200 +1,127 @@
- html, body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-  }
-
-  .full {
+  .page-header {
+    width: 100%;
+    height: 500px;
     position: relative;
-    font-family: "Playfair Display";
-    height: 75vh;
-    font-weight: 700;
-    margin-top: 35vh;
+    top: 0;
+    overflow: hidden;
+  }
+  .header-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    background-size: cover;
+    background-position: center center;
+    -webkit-filter: grayscale(70%);
+    filter: grayscale(70%);
+    -webkit-transition: all 3s ease;
+    transition: all 3s ease;
+    opacity: 0;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  .header-background.active {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      opacity: 1;
+  }
+  .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: .3;
+  }
+  .page-intro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     color: #fff;
-  }
-  
-  .full * {
+    margin: 0;
     white-space: nowrap;
+    text-transform: uppercase;
+    -webkit-transition-delay: 1s;
+    transition-delay: 1s;
   }
-
-  .full h1 {
-    font-weight: 700;
+  .page-intro span {
+    font-family: "Raleway";
+    font-size: 80px;
+    font-weight: 100;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    opacity: 0;
   }
-  
-  .spin {
+  @media (max-width: 800px) {
+    .page-header {
+      height: 400px;
+    }
+    .page-intro span {
+      font-size: 45px;
+    }
+  }
+  .page-intro.active span {
+    opacity: 1;
+  }
+  .info-wrapper {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .info-background {
     position: absolute;
     top: 0;
     width: 100%;
     height: 100%;
-    color: #fff;
-    background: linear-gradient(-45deg, #193B93, #382871, #7188C6, #3D69DC);
-    background-size: 400% 400%;
-    -webkit-animation: Gradient 15s ease infinite;
-    -moz-animation: Gradient 15s ease infinite;
-    animation: Gradient 15s ease infinite;
+    background-size: cover;
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    opacity: .1;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
   }
-  
-  .scroll-click {
-    cursor: pointer;
-    user-select: none;
-  }
-  
-  .scroll-click:hover {
-    letter-spacing: 5px;
-  }
-  
-  
-  @-webkit-keyframes Gradient {
-      0% {
-          background-position: 0% 50%
-      }
-      50% {
-          background-position: 100% 50%
-      }
-      100% {
-          background-position: 0% 50%
-      }
-  }
-  
-  @-moz-keyframes Gradient {
-      0% {
-          background-position: 0% 50%
-      }
-      50% {
-          background-position: 100% 50%
-      }
-      100% {
-          background-position: 0% 50%
-      }
-  }
-  
-  @keyframes Gradient {
-      0% {
-          background-position: 0% 50%
-      }
-      50% {
-          background-position: 100% 50%
-      }
-      100% {
-          background-position: 0% 50%
-      }
-  }
-  
-  .fade-neutral {
-    opacity: 0;
-    -webkit-transition: all 1s ease;
-    transition: all 1s ease;
-    -webkit-transform: translate3d(80px, 0, 0);
-    transform: translate3d(80px, 0, 0);
-  }
-  
-  .splash.active .fade-swipe span {
-    opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-  
-  .splash.active .fade-neutral {
-    opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-  
-  .FAQ-back {
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    top: 0;
-    left: 0;
-  }
-  
-  .FAQ-content {
-    font-family: "Playfair Display";
-    overflow-x: hidden;
-  }
-  
-  .FAQ-text {
-    position: relative;
-    width: 70vw;
+  .info {
+    width: 1000px;
     margin: 0 auto;
-    color: #fff;
+    font-family: "Raleway";
+    color: #000 !important;
   }
-  
-  .FAQ-text h1 {
-    font-size: 10vw;
-    margin: 0;
-    white-space: nowrap;
-    font-weight: 700;
-  }
-  
-  .FAQ-text .scroll-click {
-    font-family: "Open Sans";
-    font-size: 60px;
-    text-transform: uppercase;
-  }
-  
-  .FAQ-text h2 {
-    font-size: 2vw;
-    font-weight: 700;
-    margin-top: 50px;
-  }
-  
-  .FAQ-text p {
-    font-size: 1.2vw;
-    font-family: "Open Sans";
-    padding-left: 50px
-  }
-  
-  .FAQ-text ul {
-    font-size: 1.2vw;
-    font-family: "Open Sans";
-    padding-left: 50px
-  }
-  
   @media(max-width: 1000px) {
-    .full {
-      height: 50vh;
-      margin-top: 50vh !important;
-    }
-    .FAQ-text {
-      width: 85vw;
-    }
-    .FAQ-text .full h1 {
-      font-size: 60px;
-    }
-    .FAQ-text h3 {
-      font-size: 30px;
-    }
-    .FAQ-text h2 {
-      font-size: 22px;
-    }
-    .FAQ-text p {
-      font-size: 17px;
-      padding-left: 15px;
-    }
-    .FAQ-text ul {
-      font-size: 17px;
-      padding-left: 15px;
-    }
-    .FAQ-text .full .scroll-click {
-      font-size: 30px;
+    .info {
+      width: 90%;
     }
   }
-  
-  .fade-neutral.reveal {
-    opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-  
-  .FAQ-text h3 {
-    width: 100%;
-    height: 200px;
-    border-bottom: 1px solid #fff;
-    line-height: 180px;
-    font-family: "Playfair Display";
-    font-size: 7vw;
+  .info h2 {
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 900;
+    font-size: 30px;
+    letter-spacing: 5px;
+    padding-bottom: 20px;
   }
-  
+  .info p {
+    padding-left: 25px;
+    color: #000 !important;
+  }
+  .info h3 {
+    text-transform: uppercase;
+    font-weight: 200;
+    padding-left: 25px;
+    margin: none;
+    margin-top: 25px;
+    margin-bottom: 8px;
+    font-size: 20px;
+  }
+
+  .page-content {
+    margin: 0;
+    padding: 0;
+  }
+
+  iframe {
+      width: 100%;
+      height: 80vh;
+      border: none;
+  }

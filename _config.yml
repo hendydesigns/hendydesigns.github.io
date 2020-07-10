@@ -1,6 +1,6 @@
 ---
 title: BCCO NYC
-timezone: EST
+timezone: Pacific/Pago_Pago
 collections:
   posts:
     title: Posts
@@ -8,10 +8,10 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: INFO@BCCONYC.COM
-description: 
-baseurl: ''
-url: ''
+email: info@bcconyc.com
+description: Rush Custom T shirts NYC Custom embroidery DTG printing Screen printing.
+baseurl: 
+url: 
 theme: minima
 plugins:
 - jekyll-feed

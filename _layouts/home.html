@@ -4,7 +4,7 @@ layout: main
 
 <link rel="stylesheet" href="{{ "/assets/home.css" | relative_url }}">
 
-{% if page.banner == "true" %}
+{% if page.banner == true %}
 <div class="banner" style="background-color: {{page.banner-color}}">
         <h1>{{ page.banner-text }}</h1>
     </div>

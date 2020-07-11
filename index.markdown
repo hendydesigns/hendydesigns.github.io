@@ -2,7 +2,7 @@
 title: Home
 position: 2
 banner: true
-banner-text: Test, this will update the banner
+banner-text: Test, this will update the banner!
 banner-color: "#333"
 layout: home
 ---

@@ -12,7 +12,7 @@ layout: main
 
 <div class="Landing">
 
-
+    <div class="loader-back" style="background-image:url({{ '/images/loader.jpg' | relative_url }})"></div>
     <!--Homepage Swiper-->
     <div class="swiper-container main-slider">
 
@@ -195,10 +195,9 @@ layout: main
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.js"></script>
 <script>
-
+   $(".headers").addClass("active");
     window.onload = function () {
         $(".main-slider").addClass("active");
-        $(".headers").addClass("active");
     }
 
     var mySwiper = new Swiper('.main-slider', {

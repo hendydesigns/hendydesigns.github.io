@@ -89,7 +89,6 @@ We only require a minimum of 50 stickers to begin an order! And remember, everyo
 ![patch.jpg](/images/services/patch.jpg)
 <div class="services-text">
 <h2>CUSTOM PATCHWORK</h2>
-CUSTOM PATCHWORK
 Custom patches are one of the finest forms of embroidery. Patches are excellent for outerwear such as uniforms, button down jackets, hats, as well as many other garments.
 <br><br>
 There is no minimum or maximum for patch orders, and we guarantee you will love our work.

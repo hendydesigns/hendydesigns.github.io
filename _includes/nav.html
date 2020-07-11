@@ -1,0 +1,59 @@
+{%- assign default_paths = site.pages | map: "path" -%}
+{%- assign page_paths = site.header_pages | default: default_paths -%}
+
+<a class="nav-header" rel="author" href="{{ "/" | relative_url }}">BCCO NYC</a>
+
+<div class="fixed-nav">
+    {%- if page_paths -%}
+    <div class="nav">
+        <ul>
+            {%- for path in page_paths -%}
+            {%- assign my_page = site.pages | where: "path", path | first -%}
+            {%- if my_page.title -%}
+            <li><a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
+            {%- endif -%}
+            {%- endfor -%}
+        </ul>
+    </div>
+
+    <div class="mobile">
+        <div id="button">
+            <span></span>
+            <span></span>
+        </div>
+        <div id="m" class="mobile-menu">
+            <ul>
+                {%- for path in page_paths -%}
+                {%- assign my_page = site.pages | where: "path", path | first -%}
+                {%- if my_page.title -%}
+                <li><a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
+                {%- endif -%}
+                {%- endfor -%}
+            </ul>
+        </div>
+    </div>
+    {%- endif -%}
+
+    <div class="buttons-wrapper">
+        <div class="contact">
+            <h2>347-836-9116</h2>
+            <h2><a style="color: #000" href="mailto:info@bcconyc.com">INFO@BCCONYC.COM</h2>
+        </div>
+
+        <!--
+        <a href="#">
+          <div class="button start">
+            <p>START DESIGNING<p>
+                <div class="inner"></div>
+          </div>
+        </a>-->
+        <a href="https://www.picktime.com/cb069e89-9188-4a66-93fe-30e7c85cffeb" class="ptbkbtn" target="_blank"
+            style="float:none;">
+            <div class="button">
+                <p>PICKUP / DROPOFF
+                <p>
+                <div class="inner"></div>
+            </div>
+        </a>
+    </div>
+</div>

@@ -2,7 +2,9 @@
 title: Home
 position: 2
 layout: home
-banner: 'Testtesttest'
+banner: "true"
+banner-text: 'Here is an example of a banner, you can edit the text to say whatever you like'
+banner-color: '#333'
 ---
 
 ![vinyl.jpg](/images/services/vinyl.jpg)

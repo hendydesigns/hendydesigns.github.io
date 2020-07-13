@@ -49,7 +49,7 @@ We love to stay connected with our clients through various social media outlets 
 ### IMAGE PLACEMENT ###
 Slight disparities can be expected in regards to image placement. We cannot guarantee that each image will be printed in the exact same distance from either seam or collar on every individual garment. Each item is made by hand and variations tend to be indistinguishable.
 
-### COLOR MATCHING ###
+### COLOR MATCHINGS ###
 Colors look different on every computer screen which is why we use the Pantone Solid Coated System to match our colors. If you have access to them, send us the Pantone Solid Coated numbers you would like to use for your design. This allows us to match your colors as accurately as possible. When digitally printing items, colors may vary. We do our best to keep the color's integrity as much as possible.
 We do not guarantee any color matching for DTG prints.
 

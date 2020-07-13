@@ -1,8 +1,8 @@
 ---
 title: Home
 position: 2
-banner: false
-banner-text: 
+banner: true
+banner-text: Due to Covid-19 all in house consultations are suspended
 banner-color: "#0010f6"
 layout: home
 ---

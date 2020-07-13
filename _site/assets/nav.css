@@ -269,7 +269,7 @@
 }
 p {
   margin-block-start: 0em !important;
-  margin-block-end: 0em !important !important;
+  margin-block-end: 0em !important;
   margin-inline-start: 0px !important;
   margin-inline-end: 0px !important;
 }
@@ -315,16 +315,3 @@ p {
   }
 }
 
-.inline {
-border: none !important;
-margin-top: 30px;
-background: #fff;
-}
-.inline p {
-color: #000;
-}
-@media(max-width: 1000px) {
-.inline {
-  display: none !important;
-}
-}

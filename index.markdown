@@ -2,7 +2,7 @@
 title: Home
 position: 2
 banner: true
-banner-text: Test, you can change the banner text, and color/ if its shown!
+banner-text: Due to Covid-19 all in house consultations are suspended
 banner-color: "#0010f6"
 layout: home
 ---

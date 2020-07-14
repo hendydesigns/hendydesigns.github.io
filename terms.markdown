@@ -2,6 +2,8 @@
 title: Terms
 permalink: "/terms/"
 position: 0
+description: FAQs, Screen Printing, DTG Printing, Custom T shirts guidelines, policies
+  and requirements
 layout: info
 ---
 

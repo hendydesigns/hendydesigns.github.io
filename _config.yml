@@ -10,14 +10,8 @@ collections:
     output: true
 email: info@bcconyc.com
 description: Rush Custom T shirts NYC Custom embroidery DTG printing Screen printing.
-baseurl: https://www.bcconyc.com/
-url: https://www.bcconyc.com/
+baseurl: 
+url: 
 theme: minima
 plugins:
 - jekyll-feed
-- jekyll-seo-tag
-social:
-  name: BCCO NYC
-  links:
-  - https://www.instagram.com/bcconyc/
-  - https://www.facebook.com/BccoNyc/

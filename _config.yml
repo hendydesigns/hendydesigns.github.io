@@ -1,6 +1,6 @@
 ---
 title: BCCO NYC
-timezone: Pacific/Pago_Pago
+timezone: America/New_York
 collections:
   posts:
     title: Posts

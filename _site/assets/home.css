@@ -34,7 +34,7 @@ body {
   pointer-events: none;
   user-select: none;
   white-space: nowrap;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   text-align: center;
   margin: 0 auto;
   margin-top: 40px;
@@ -48,11 +48,11 @@ body {
   pointer-events: none;
   user-select: none;
   font-weight: 700;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
 }
 
 .info {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   color: #fff;
   text-transform: uppercase;
   margin-top: 25px;
@@ -194,7 +194,7 @@ body {
 
 
 .Gallery-background h1 {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 30px;
   text-align: center;
   font-weight: 300;
@@ -212,7 +212,7 @@ body {
 .map-info {
   display: inline-block;
   width: 500px;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   margin-bottom: 50px;
 }
 .map-info {
@@ -324,7 +324,7 @@ body {
   text-transform: uppercase;
   font-size: 30px;
   text-align: center;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   color: #000;
 }
 .brands-container {
@@ -349,7 +349,7 @@ body {
 .brand-text {
   font-size: 20px;
   color: #fff;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   position: absolute;
   font-weight: 700;
   letter-spacing: 5px;
@@ -433,7 +433,7 @@ body {
   transform: scale(.9);
 }
 .garm-type {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   position: absolute;
   width: 100%;
@@ -514,7 +514,7 @@ body {
   height: 70px;
   line-height: 70px;
   text-align: center;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   border: 1px solid #000;
@@ -547,53 +547,53 @@ body {
 
 
 .Gallery-content-1 {
-  background-image: url("http://www.guambusinessmagazine.com/wp-content/uploads/2017/07/CBS_logo.svg.jpg");
+  background-image: url("https://i.imgur.com/2QThOIj.jpg");
 }
 .Gallery-content-2 {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/MTV_International_2009.svg/1200px-MTV_International_2009.svg.png");
+  background-image: url("https://i.imgur.com/0Rxup4E.png");
 }
 .Gallery-content-3 {
-  background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/2/21/MTV2_logo_2013.svg/1200px-MTV2_logo_2013.svg.png");
+  background-image: url("https://i.imgur.com/VoRK8XS.png");
 }
 .Gallery-content-4 {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/f9/Food_Network_New_Logo.png");
+  background-image: url("https://i.imgur.com/F1FEjAP.png");
 }
 .Gallery-content-5 {
-  background-image: url("https://yt3.ggpht.com/a/AGF-l7-Pt5ig45W7kn2MEhN7k2bJ70ANMh-BKIPLBQ=s900-mo-c-c0xffffffff-rj-k-no");
+  background-image: url("https://i.imgur.com/TWTAOd1.jpg");
 }
 .Gallery-content-6 {
-  background-image: url("https://media.glassdoor.com/sqll/1683313/dj-bennett-squarelogo-1513675375885.png");
+  background-image: url("https://i.imgur.com/E37H2L2.png");
   -webkit-filter: invert(100%);
   filter: invert(100%);
 }
 .Gallery-content-7 {
-  background-image: url("https://static1.squarespace.com/static/532313ece4b08487acaec7a2/53287b07e4b05b4e22badb6f/5d13e66d990c4f00014d6b80/1561585957779/lacoste_square.jpg?format=1500w");
+  background-image: url("https://i.imgur.com/c94IKtk.jpg");
 }
 .Gallery-content-8 {
-  background-image: url("https://static.wixstatic.com/media/5a90a2_94389e486315788c0e594430fed7803b.jpg/v1/fit/w_2500,h_1330,al_c/5a90a2_94389e486315788c0e594430fed7803b.jpg");
+  background-image: url("https://i.imgur.com/nH5eCgQ.jpg");
   -webkit-filter: invert(100%);
   filter: invert(100%);
 }
 .Gallery-content-9 {
-  background-image: url("https://cdn.greenrush.com/media/1/3/1/7078131/c/large.jpg");
+  background-image: url("https://i.imgur.com/zoRbyga.jpg");
 }
 .Gallery-content-10 {
-  background-image: url("https://static1.squarespace.com/static/5915269f6b8f5bb5b84a4ee7/t/594a8d54b11be17af0265d5f/1560547318579/?format=750w");
+  background-image: url("https://i.imgur.com/7RsYBk3.jpg");
 }
 .Gallery-content-11 {
-  background-image: url("https://cdn.evbuc.com/images/58124763/295030477340/2/logo.png");
+  background-image: url("https://i.imgur.com/kEXKz1z.png");
 }
 .Gallery-content-12 {
-  background-image: url("https://tracyanderson.com/wp-content/uploads/2018/01/vanity-fair-logo.jpg");
+  background-image: url("https://i.imgur.com/L7urwn1.jpg");
 }
 .Gallery-content-13 {
-  background-image: url("https://www.executivehunters.in/wp-content/uploads/2018/03/elle-magazine-logo.jpg");
+  background-image: url("https://i.imgur.com/t2pP5m0.jpg");
 }
 .Gallery-content-14 {
-  background-image: url("https://i.pinimg.com/originals/b7/5b/94/b75b94b51a1e2da66312bd5950f919a1.jpg");
+  background-image: url("https://i.imgur.com/YYzOyor.jpg");
 }
 .Gallery-content-15 {
-  background-image: url("https://files.startupranking.com/startup/thumb/4320_8af97b9ebf429e3c57be91eb9fca328a8746bfa5_lyst_m.jpg");
+  background-image: url("https://i.imgur.com/KM3scuo.jpg");
 }
 
 .map-wrapper {
@@ -606,7 +606,7 @@ body {
 .map-info {
   display: inline-block;
   width: 500px;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   margin-bottom: 50px;
 }
 .map-info {
@@ -770,23 +770,11 @@ body {
 .banner h1 {
   color: #fff;
   text-align: center;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 12px;
   line-height: 35px;
   margin: 0;
   white-space: nowrap;
 }
 
-.inline {
-  border: none !important;
-  margin-top: 30px;
-  background: #fff;
-  }
-  .inline p {
-  color: #000;
-  }
-  @media(max-width: 1000px) {
-  .pickup {
-    display: none !important;
-  }
-  }
+

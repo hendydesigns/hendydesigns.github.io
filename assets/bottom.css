@@ -75,7 +75,7 @@
     margin-top: 50px;
     margin-bottom: 5px;
     /*Text*/
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -86,7 +86,7 @@
     margin: 0;
     margin-top: 10px;
     /*Text*/
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-size: 12px;
     font-weight: 300;
     text-transform: uppercase;
@@ -97,7 +97,7 @@
     margin: 0;
     margin-top: 15px;
     /*Text*/
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-size: 12px;
     font-weight: 300;
   }
@@ -171,7 +171,7 @@
 
   .Footer-content-1 ul a {
     margin: 0;
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     list-style-type: none;
     text-decoration: none;
     color: #000;

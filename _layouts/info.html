@@ -19,5 +19,10 @@ layout: main
   </div>
 </div>
 
-<script src="{{ 'assets/info.js' | relative_url }}"></script> 
+<script>
+  window.onload = function() {
+    $(".page-intro").addClass("active");
+    $(".header-background").addClass("active");
+  }
+</script> 
 

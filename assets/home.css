@@ -777,16 +777,4 @@ body {
   white-space: nowrap;
 }
 
-.inline {
-  border: none !important;
-  margin-top: 30px;
-  background: #fff;
-  }
-  .inline p {
-  color: #000;
-  }
-  @media(max-width: 1000px) {
-  .pickup {
-    display: none !important;
-  }
-  }
+

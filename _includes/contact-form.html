@@ -1,8 +1,9 @@
-<form class="contact-form" method="post" action="/contact">
+<form action="https://getform.io/f/d3e5e6a4-3955-4925-aba2-e27feb816e0d" method="POST">
     <h2>Send a Message</h2>
+    <p>Get in touch, we'd love to hear from you</p>
     <div class="contact-row">
       <div class="contact-info">
-        <label class="contact-label" for="inputName">Name (required)</label>
+        <label class="contact-label" for="inputName">Name</label>
         <input class="contact-input" id="inputName" type="text" name="name" />
       </div>
 
@@ -14,17 +15,6 @@
     </div>
 
     <div class="contact-row">
-      <div class="contact-info">
-        <label class="contact-label" for="inputEmail">Phone (required)</label>
-        <input class="contact-input" id="inputEmail" type="email" name="email" />
-      </div>
-      <div class="contact-info">
-        <label class="contact-label" for="inputEmail">Subject</label>
-        <input class="contact-input" id="inputEmail" type="email" name="email" />
-      </div>
-    </div>
-
-    <div class="contact-row">
       <div class="contact-message">
         <label class="contact-label" for="inputMessage">Message</label>
         <textarea class="inputMessage" rows="3" name="message"></textarea>
@@ -32,15 +22,13 @@
     </div>
 
     <br>
-    <input class="contact-input" id="email-submit-btn" type="submit" value="Send" name="submit" />
-
+    <button class="contact-input" id="email-submit-btn"  type="submit">Send</button>
   </form>
 
   <style>
-    @media (max-width: 800px) {
-      .contact h3 {
-        width: 90%;
-      }
+    .contact p {
+      margin: 0;
+      padding: 0;
     }
 
     .contact-form {
@@ -56,11 +44,11 @@
 
     .contact-row {
       width: 100%;
-      border-bottom: 1px solid #fff;
+      border-bottom: 1px solid #000;
     }
 
     .contact-row:nth-of-type(1) {
-      border-top: 5px solid #fff;
+      border-top: 5px solid #000;
     }
 
     .contact-info {
@@ -75,28 +63,28 @@
 
     .contact-info:nth-of-type(2) {
       margin-left: -5px;
-      border-left: 1px solid #fff;
+      border-left: 1px solid #000;
     }
 
     .contact-label {
-      font-family: "Open Sans";
+      font-family: "Raleway";
       font-weight: 500;
       font-size: 16px;
       text-transform: uppercase;
       display: block;
       padding-left: 10px;
       padding-top: 10px;
-      color: #fff;
+      color: #000;
     }
 
     .contact-input {
       width: 100%;
       font-size: 20px;
-      font-family: "Open Sans";
+      font-family: "Raleway";
       border: 0;
       padding-left: 10px;
       background: none;
-      color: #fff;
+      color: #000;
     }
 
     @media (max-width: 800px) {
@@ -113,7 +101,7 @@
       border: 0;
       resize: none;
       background: none;
-      color: #fff;
+      color: #000;
     }
 
     @media (max-width: 800px) {
@@ -132,8 +120,8 @@
     #email-submit-btn {
       height: 50px;
       cursor: pointer;
-      background: #fff;
-      color: blue;
+      background: #222;
+      color: #fff;
       text-transform: uppercase;
       font-size: 14px;
       letter-spacing: 5px;
@@ -142,24 +130,5 @@
 
     *:focus {
       outline: none;
-    }
-
-    .mapouter {
-      display: block;
-      position: relative;
-      height: 500px;
-      width: 500px;
-      margin: 0 auto;
-      margin-top: 50px;
-      margin-bottom: 100px;
-    }
-
-    .gmap_canvas {
-      overflow: hidden;
-      background: none !important;
-      height: 500px;
-      width: 500px;
-      -webkit-filter: grayscale(100%);
-      filter: grayscale(100%);
     }
   </style>

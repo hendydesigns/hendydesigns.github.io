@@ -1,5 +1,7 @@
 {%- assign default_paths = site.pages | map: "path" -%}
 {%- assign page_paths = site.header_pages | default: default_paths -%}
+{% assign links = site.pages | sort: 'position'  %}
+
 
 <a class="nav-header" rel="author" href="{{ "/" | relative_url }}">BCCO NYC</a>
 
@@ -7,11 +9,10 @@
     {%- if page_paths -%}
     <div class="nav">
         <ul>
-            {%- for path in page_paths -%}
-            {%- assign my_page = site.pages | where: "path", path | first -%}
-            {%- if my_page.title -%}
-            <li><a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
-            {%- endif -%}
+            {%- for link in links -%}
+                {%- if link.title -%}
+                    <li><a class="page-link" href="{{ link.url | relative_url }}">{{ link.title | escape }}</a></li>
+                {%- endif -%}
             {%- endfor -%}
         </ul>
     </div>
@@ -23,11 +24,10 @@
         </div>
         <div id="m" class="mobile-menu">
             <ul>
-                {%- for path in page_paths -%}
-                {%- assign my_page = site.pages | where: "path", path | first -%}
-                {%- if my_page.title -%}
-                <li><a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
-                {%- endif -%}
+                {%- for link in links -%}
+                    {%- if link.title -%}
+                        <li><a class="page-link" href="{{ link.url | relative_url }}">{{ link.title | escape }}</a></li>
+                    {%- endif -%}
                 {%- endfor -%}
             </ul>
         </div>

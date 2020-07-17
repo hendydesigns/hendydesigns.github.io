@@ -324,7 +324,10 @@ background: #fff;
 color: #000;
 }
 @media(max-width: 1000px) {
-.inline {
+.drop-inline {
   display: none !important;
+}
+.quote-inline {
+  margin-top: 30px !important;
 }
 }

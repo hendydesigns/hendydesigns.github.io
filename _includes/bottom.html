@@ -1,8 +1,12 @@
+{%- assign default_paths = site.pages | map: "path" -%}
+{%- assign page_paths = site.header_pages | default: default_paths -%}
+{% assign links = site.pages | sort: 'position'  %}
+
 <div class="Footer-wrapper">
 
     <div class="Footer">
 
-      <div class="Grid Grid--cols-3">
+      <div class="Grid Grid--cols-4">
 
         <div class="Grid-cell">
           <div class="Footer-content-1">
@@ -27,6 +31,22 @@
               <a href="https://www.facebook.com/BccoNyc/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
               <a href="https://www.instagram.com/bcconyc/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a>
             </div>
+          </div>
+        </div>
+
+        <div class="Grid-cell">
+          <div class="Footer-content-4">
+            {%- if page_paths -%}
+            <h2>Links</h2>
+            <ul>
+              {%- for link in links -%}
+                  {%- if link.title -%}
+                      <li><a class="page-link" href="{{ link.url | relative_url }}">{{ link.title | escape }}</a></li>
+                  {%- endif -%}
+              {%- endfor -%}
+            </ul>
+            {%- endif -%}
+
           </div>
         </div>
 

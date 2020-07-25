@@ -158,18 +158,18 @@
   
   /*===========================================*/
   
-  .Footer-content-1 ul {
+  .Grid-cell ul {
     padding: 0;
     margin: 0;
   }
   
-  .Footer-content-1 ul li {
+  .Grid-cell  ul li {
     list-style-type: none;
     margin: 0;
     padding: 0;
   }
 
-  .Footer-content-1 ul a {
+  .Grid-cell  ul a {
     margin: 0;
     font-family: "Raleway", sans-serif;
     list-style-type: none;

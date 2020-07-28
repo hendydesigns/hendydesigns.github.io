@@ -4,6 +4,7 @@ position: 0
 banner: true
 banner-text: Due to Covid-19 all in house consultations are suspended
 banner-color: "#0010f6"
+hours: "10:30am - 7:00pm"
 layout: home
 ---
 

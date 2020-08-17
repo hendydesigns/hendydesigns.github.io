@@ -7,4 +7,4 @@ position: 5
 Click this link to access the Catalog:
 
 [Catalog]
-(https://www.sportswearcollection.com/bcconyc )
+(https://www.sportswearcollection.com/bcconyc)

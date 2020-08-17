@@ -6,4 +6,4 @@ position: 5
 
 Click the link below to view our catalog:
 
-[](https://www.sportswearcollection.com/bcconyc)
+[(https://www.sportswearcollection.com/bcconyc)]

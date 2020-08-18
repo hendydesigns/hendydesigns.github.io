@@ -6,4 +6,4 @@ Key:
 layout: default
 ---
 
- Click the link below to view the catalog.[](https://www.sportswearcollection.com/ps/t_shirts?site=OZFKIJUWMO)
+[Catalog](https://www.sportswearcollection.com/ps/t_shirts?site=OZFKIJUWMO)

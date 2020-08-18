@@ -5,6 +5,7 @@ position: 5
 Key: 
 ---
 
-Click this link to access the Catalog:
+Click the link below to view the catalog.
 
-[](https://www.sportswearcollection.com/bcconyc)
+
+[](https://www.sportswearcollection.com/ps/t_shirts?site=OZFKIJUWMO)

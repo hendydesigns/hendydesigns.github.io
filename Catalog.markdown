@@ -6,4 +6,4 @@ Key:
 layout: default
 ---
 
-[Catalog](https://www.sportswearcollection.com/ps/t_shirts?site=OZFKIJUWMO)
+[](https://www.sportswearcollection.com/ps/t_shirts?site=OZFKIJUWMO)

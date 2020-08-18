@@ -6,4 +6,4 @@ Key:
 layout: info
 ---
 
-`<a href="https://www.sportswearcollection.com/ps/t_shirts?site=OZFKIJUWMO"></a>`
+# (https://www.sportswearcollection.com/ps/t_shirts?site=OZFKIJUWMO)

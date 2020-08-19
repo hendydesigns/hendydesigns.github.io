@@ -6,6 +6,6 @@ Key:
 layout: info
 ---
 
-[Link to Catalog]
+Click this link to access the Catalog:
 
-(www.sportswearcollection.com/ps/t_shirts?site=OZFKIJUWMO)
+[Catalog](https://www.sportswearcollection.com/ps/t_shirts?site=OZFKIJUWMO)

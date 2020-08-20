@@ -8,7 +8,6 @@ layout: info
 
 Click this link to access the Catalog:
 
-[Catalog]
-(https://www.sportswearcollection.com/ps/t_shirts?site=OZFKIJUWMO)
+[Catalog](https://www.sportswearcollection.com/ps/t_shirts?site=OZFKIJUWMO)
 
 

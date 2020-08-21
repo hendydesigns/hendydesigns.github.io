@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Custom Printed T-shirts NYC
 position: 0
 banner: true
 banner-text: Due to Covid-19 all in house consultations are suspended

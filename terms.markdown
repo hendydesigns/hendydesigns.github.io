@@ -13,7 +13,15 @@ The turnaround time on an order with BCCO NYC starts when you’ve paid in full 
 
 If you have a deadline, it is necessary to inform us when placing your order. A rush fee may apply if there is not enough time to complete your order within our current margins. If you do not advise us of a due date until after your order has been paid for and production has been scheduled, we may not be able to accommodate your request, and additional charges may apply. Any circumstances out of BCCO NYC's control (i.e. weather delays, shipping errors by the supplier, etc.) may require additional time and are not included in turn around estimates.
 
+Slight disparities can be expected in regards to image placement. We cannot guarantee that each image will be printed in the exact same distance from either seam or collar on every individual garment. Each item is made by hand and variations tend to be indistinguishable.
 
+Colors look different on every computer screen which is why we use the Pantone Solid Coated System to match our colors. If you have access to them, send us the Pantone Solid Coated numbers you would like to use for your design. This allows us to match your colors as accurately as possible. When digitally printing items, colors may vary. We do our best to keep the color's integrity as much as possible.
+We do not guarantee any color matching for DTG prints.
+
+We take great care to ensure that everything we create is of the highest quality.  All of our clients are valued customers, and we want to exceed your expectations. In the event that you do find something wrong, we allow a 7 day window, starting from the time you receive your order, to be informed of errors and have them corrected. We are not responsible for items that have already been sold or distributed.
+
+BCCO is not responsible for items left on our premises for more than 45 days. After this period of time, unclaimed
+goods are subject to donation. 
 
 ## FAQ'S ##
 Learn more about BCCO NYC:
@@ -36,9 +44,6 @@ Yes, although we do encourage that you order your garments through one of our tr
 ### RETURNS, REFUNDS, & EXCHANGES ###
 There are NO returns, refunds, or exchanges on any custom order placed.
 
-### MISTAKES ###
-We take great care to ensure that everything we create is of the highest quality. All of our clients are valued clients, and we want to exceed your expectations. In the event that you do find something wrong, let us know. We allow a 48-hour window, starting from the time you receive your order, to be informed of errors and have them corrected. We are not responsible for items that have already been sold or distributed.
-
 ### CANCELLATION POLICY ###
 There is a 50% cancellation fee for an order placed after any portion of an invoice has been paid. There is an additional restocking fee and you will be responsible for any return shipping fees for merchandise not used, as well as any cost of wasted material.
 
@@ -48,11 +53,3 @@ We do not claim ownership of any photographs used on this site, unless otherwise
 
 ### SOCIAL MEDIA SHARING ###
 We love to stay connected with our clients through various social media outlets like Facebook, Twitter, and Instagram. This often means posting pictures of the awesome designs you have created with us. We like to show off our hard work! We reserve the right to post on any social media outlet, blog, or website, including our own, and replicate any photos of our prints . If you’d prefer to keep your design under wraps, just let us know beforehand, and we will happily honor your wishes.
-
-### IMAGE PLACEMENT ###
-Slight disparities can be expected in regards to image placement. We cannot guarantee that each image will be printed in the exact same distance from either seam or collar on every individual garment. Each item is made by hand and variations tend to be indistinguishable.
-
-### COLOR MATCHINGS ###
-Colors look different on every computer screen which is why we use the Pantone Solid Coated System to match our colors. If you have access to them, send us the Pantone Solid Coated numbers you would like to use for your design. This allows us to match your colors as accurately as possible. When digitally printing items, colors may vary. We do our best to keep the color's integrity as much as possible.
-We do not guarantee any color matching for DTG prints.
-

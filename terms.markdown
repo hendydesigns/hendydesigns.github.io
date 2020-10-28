@@ -26,9 +26,8 @@ are made at the client's discretion.
 If you have a deadline, it is necessary to inform us when placing your order. A rush fee may apply if there is not enough time to complete your order within our current margins. If you do not advise us of a due date until after your order has been paid and production has been scheduled, we may not be able to accommodate your request, and additional charges may apply. Any circumstances out of BCCO NYC's control (i.e. weather delays, shipping errors by the supplier, etc.) may require additional time and are not included in turn around estimates. Same day rush order quotes are valid for 1 hour only.  Other rush order quotes are valid until the end of the business day.
 
 Slight disparities can be expected in regards to image placement. We cannot guarantee that each image will be printed in the exact same distance from either seam or collar on every individual garment. Each item is made by hand and variations tend to be indistinguishable.
+  
 
-Colors look different on every computer screen which is why we use the Pantone Solid Coated System to match our colors. If you have access to them, send us the Pantone Solid Coated numbers you would like to use for your design. This allows us to match your colors as accurately as possible. When digitally printing items, colors may vary. We do our best to keep the color's integrity as much as possible.
-We do not guarantee any color matching for DTG prints.
 
 We take great care to ensure that everything we create is of the highest quality.  All of our clients are valued customers, and we want to exceed your expectations. In the event that you do find something wrong, we allow a 7 day window, starting from the time you receive your order, to be informed of errors and have them corrected. We are not responsible for items that have already been sold or distributed.
 

@@ -23,16 +23,14 @@ Stock apparel provided by BCCO NYC are quality brands that come highly recommend
 You can browse clothing options by visiting the catalog found on our website.  Choices
 are made at the client's discretion. 
 
-If you have a deadline, it is necessary to inform us when placing your order. A rush fee may apply if there is not enough time to complete your order within our current production schedule. If you do not advise us of a due date until after your order has been paid and production has been scheduled, we may not be able to accommodate your request, and additional charges may apply. Any circumstances out of BCCO NYC's control (i.e. weather delays, shipping errors by the supplier, etc.) may require additional time and are not included in turn around estimates. Same day rush order quotes are valid for 1 hour only.  Other rush order quotes are valid until the end of the business day.  Our standard production time is 5 to 10 business days.
+If you have a deadline, it is necessary to inform us when placing your order. A rush fee may apply if there is not enough time to complete your order within our current production schedule of 5 to 10 business days. If you do not advise us of a due date until after your order has been paid and production has been scheduled, we may not be able to accommodate your requested due date unless "rush status" is requested, and additional charges may apply.  Any circumstances out of BCCO NYC's control (i.e. weather delays, shipping errors by the supplier, etc.) may require additional time and are not included in turn around estimates.  Same day rush order quotes are valid for 
+1 hour only.  Other rush order quotes are valid until the end of the business day.  Our standard production time is 5 to 10 business days.
 
 Slight disparities can be expected in regards to image placement. We cannot guarantee that each image will be printed in the exact same distance from either seam or collar on every individual garment. Each item is made by hand and variations tend to be indistinguishable.
-  
 
+We take great care to ensure that everything we create is of the highest quality.  All of our clients are valued customers, and we want to exceed your expectations. In the event that you do find something wrong, we allow a 7 day window, starting from the time you receive your order, to be informed of errors and have them corrected.  We are not responsible for items that have already been sold or distributed.
 
-We take great care to ensure that everything we create is of the highest quality.  All of our clients are valued customers, and we want to exceed your expectations. In the event that you do find something wrong, we allow a 7 day window, starting from the time you receive your order, to be informed of errors and have them corrected. We are not responsible for items that have already been sold or distributed.
-
-BCCO is not responsible for items left on our premises for more than 45 days. After this period of time, unclaimed
-goods are subject to donation. 
+BCCO is not responsible for items left on our premises for more than 45 days. After this period of time, unclaimed goods are subject to donation. 
 
 ## FAQ'S ##
 Learn more about BCCO NYC:

@@ -30,7 +30,7 @@ Slight disparities can be expected in regards to image placement. We cannot guar
 
 We take great care to ensure that everything we create is of the highest quality.  All of our clients are valued customers, and we want to exceed your expectations. In the event that you do find something wrong, we allow a 7 day window, starting from the time you receive your order, to be informed of errors and have them corrected.  We are not responsible for items that have already been sold or distributed.
 
-BCCO is not responsible for items left on our premises for more than 45 days. After this period of time, unclaimed goods are subject to donation. 
+BCCO is not responsible for items left on our premises for more than 45 days. After this period of time, unclaimed goods are subject to donation.  Agreement to our terms and conditions remains valid for all future transactions.
 
 ## FAQ'S ##
 Learn more about BCCO NYC:

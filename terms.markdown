@@ -49,7 +49,7 @@ Yes, we ship domestically within the United States, as well as arrange messenger
 Please refer to our "Wholesale Partnerships" page which details the clothing manufacturers we use as suppliers. If you do not see a company listed that you would like to use, please ask us, and we will do our best to accommodate you.
 
 ### CAN I SUPPLY MY OWN SHIRTS? ###
-Yes, although we do encourage that you order your garments through one of our trusted partners. If you supply your own shirts, BCCO is not responsible for any damages or disfigurations that might occur during the printing process.
+Yes, you may provide your own apparel, but we do encourage you to order your garments through one of our trusted partners. If you supply your own clothing, BCCO is not responsible for any damages or disfigurations that might occur during the printing process. We do not print on used, soiled or damaged items.
 
 ### RETURNS, REFUNDS, & EXCHANGES ###
 There are NO returns, refunds, or exchanges on any custom order placed.

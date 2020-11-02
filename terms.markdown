@@ -43,7 +43,7 @@ Please email your questions and requests to info@bcconyc.com or call 347-836-911
 and answers all your questions.  Provided items can be dropped off at our lobby once an invoice has been paid in full.  Orders can be picked up at our location once notification of completion has been sent to the client.  Make an appointment online at [www.Picktime.com/BCCONYC](https://www.Picktime.com/BCCONYC).
 
 ### CAN YOU SHIP/DELIVER MY ORDER? ###
-Yes, we ship domestically within the United States, as well as providing messenger service within New York City. Shipping and delivery charges will added to your invoice.
+Yes, we ship domestically within the United States, as well as arrange messenger service within New York City. Shipping and delivery charges will be added to your invoice.
 
 ### WHAT WHOLESALE BRANDS CAN I PURCHASE SHIRTS FROM THROUGH BCCO NYC? ###
 Please refer to our "Wholesale Partnerships" page which details the clothing manufactures we have accounts with. If you do not see a company present that you would like to use, please inquire about them, and we will do our best to accommodate you.

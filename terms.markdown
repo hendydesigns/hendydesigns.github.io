@@ -46,7 +46,7 @@ and answers all your questions.  Provided items can be dropped off at our lobby 
 Yes, we ship domestically within the United States, as well as arrange messenger service within New York City. Shipping and delivery charges will be added to your invoice.
 
 ### WHAT WHOLESALE BRANDS CAN I PURCHASE SHIRTS FROM THROUGH BCCO NYC? ###
-Please refer to our "Wholesale Partnerships" page which details the clothing manufactures we have accounts with. If you do not see a company present that you would like to use, please inquire about them, and we will do our best to accommodate you.
+Please refer to our "Wholesale Partnerships" page which details the clothing manufacturers we use as suppliers. If you do not see a company listed that you would like to use, please ask us, and we will do our best to accommodate you.
 
 ### CAN I SUPPLY MY OWN SHIRTS? ###
 Yes, although we do encourage that you order your garments through one of our trusted partners. If you supply your own shirts, BCCO is not responsible for any damages or disfigurations that might occur during the printing process.

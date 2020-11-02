@@ -8,7 +8,7 @@ description: |-
 layout: info
 ---
 
-                     ## TERMS AND CONDITIONS ##
+## TERMS AND CONDITIONS ##
 The turnaround time on an order with BCCO NYC starts when you have paid in full and all required information has been received (i.e. finalized artwork files, approved specifications, approved samples, shipping information, etc.).    Delay in receipt of any of this information can, and likely will, result in production delays.   Our current estimated turnaround time is between five to ten business days and does not include shipping time.   Complex orders and add-ons may increase turnaround time. Delay in approval of mock ups, and additional finishing services can also result in production delays. BCCO NYC makes all efforts to ensure the mock ups created reflect all the details pertinent to a customer's order.   Customers are responsible for approving the final mock ups and confirming the details on the mock ups are accurate.  A sample is provided for viewing before production when applicable.   The sample will be part of your order.   BCCO NYC strives to produce the highest quality of work and assure customer satisfaction.
 
 

@@ -35,12 +35,12 @@ BCCO NYC is not responsible for items left on our premises for more than 45 days
 Learn more about BCCO NYC:
 
 ### HOW DOES PRICING WORK? ###
-Pricing is specifically calculated for each individual client creation. Since many factors affect pricing including desired turnaround time, number of pieces needed, method of printing, and difficulty of artwork, all orders are quoted on a case by case basis.
+Pricing is specifically calculated for each individual client creation. Since many factors affect pricing, including desired turnaround time, number of pieces needed, method of printing, and difficulty of artwork, all orders are quoted on a case by case basis.
 
 ### DO I NEED TO MAKE AN APPOINTMENT? ###
-Due to Covid-19 protocols, no in person appointments can be scheduled at this time.
-Please email your questions and requests to info@bcconyc.com or call 347-836-9116 to speak to a sales representative.  We will discuss your project with you remotely
-and answers all your questions.  Provided items can be dropped off at our lobby once an invoice has been paid in full.  Orders can be picked up once notification of completion is sent to the client.  Make an appointment online at [www.Picktime.com/BCCONYC](https://www.Picktime.com/BCCONYC).
+Due to Covid-19 protocols, no in-person appointments can be scheduled at this time.
+Please email your questions and requests to info@bcconyc.com or call 347-836-9116 to speak to a sales representative.  We will discuss your project with you by telephone
+and answers all your questions.  Provided items can be dropped off at our lobby once an invoice has been paid in full.  Orders can be picked up at our location once notification of completion has been sent to the client.  Make an appointment online at [www.Picktime.com/BCCONYC](https://www.Picktime.com/BCCONYC).
 
 ### CAN YOU SHIP/DELIVER MY ORDER? ###
 Yes, we ship domestically within the United States, as well as providing messenger service within New York City. Shipping and delivery charges will added to your invoice.

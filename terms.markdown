@@ -31,6 +31,8 @@ We take great care to ensure that everything we create is of the highest quality
 
 BCCO NYC is not responsible for items left on our premises for more than 45 days.      After this period of time, unclaimed goods are subject to donation.   Agreement to our terms and conditions remains valid for all future transactions.
 
+Any and all set up fees are for file creation to be used in-house. Upon request, files can be sent to you, additional fees may apply.
+
 ## FAQ'S ##
 Learn more about BCCO NYC:
 

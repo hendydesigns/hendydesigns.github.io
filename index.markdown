@@ -2,7 +2,7 @@
 title: Custom Printed T-shirts NYC
 position: 0
 banner: true
-banner-text: "# **** Due to Covid-19 all in house consultations are suspended."
+banner-text: "**# Due to Covid-19 all in house consultations are suspended.**"
 banner-color: "#ff0000"
 hours: 10:30am - 7:00pm
 layout: home

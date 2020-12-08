@@ -7,6 +7,6 @@ layout: info
 ---
 
 **Click this link to access the Catalog:**
-**[Catalog](https://www.sportswearcollection.com/bcconyc)**
+**[Catalog](https://www.imprintablefashion.com/bcconyc)**
 
 

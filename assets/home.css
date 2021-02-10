@@ -294,6 +294,11 @@ body {
   background-size: cover;
   background-position: center center;
 }
+
+.yelp .view:hover {
+  color: yellow;
+}
+
 .yelp .view {
   font-family: sans-serif;
   color: #fff;

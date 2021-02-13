@@ -1,13 +1,44 @@
 <div class="container">
-  <h1>Got it suckah</h1>
-  <button id="btn-1" style="color:blue">Click 1 </button>
-  <button id='btn-2' hidden style="color:red">Click 2 </button>
+  <!-- buttons -->
+  <div class="buttonContainer">
+    <div id="btn1" class="btn btn1">Why BCCO</div>
+    <div id='btn2' class="btn">Process</div>
+    <div id='btn3' class="btn">Donations</div>
+    <div id='btn4' class="btn btn4">Provided Items</div>
+  </div>
+  <div></div>
 </div>
 
+<style>
+  .buttonContainer{
+    display: flex;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+  }
+  .btn1{
+    border-radius: 10px 0 0 10px;
+  }
+  .btn4{
+    border-radius: 0 10px 10px 0;
+  }
+  .btn {
+    text-align: center;
+    background-color: cyan;
+    width: 25%;
+    padding: 1.5rem 1rem;
+  }
+  .btn:hover{
+    background-color: cornsilk;
+  }
+  .activeBtn{
+    background-color: cornsilk;
+  }
+</style>
 
 <script>
-  jQuery('#btn-1').on('click', function(){
-    let button2 = jQuery('#btn-2')
-    button2.attr('hidden', false) 
+  jQuery('.buttonContainer').on('click', 'div.btn', function(e){
+    jQuery(this).addClass('activeBtn').siblings().removeClass('activeBtn');
+
   })
 </script>

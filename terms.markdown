@@ -1,7 +1,7 @@
 ---
 title: Terms
 permalink: "/terms/"
-position: 2
+position: 1
 description: |-
   FAQs, Screen Printing, DTG Printing, Custom T shirts guidelines, policies and requirements.
   1697 Broadway #302, New York, NY 10019

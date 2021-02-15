@@ -282,12 +282,10 @@ body {
   transform: translate(-50%, 0);
   cursor: pointer;
   z-index: 10;
+  color: white;
 }
 
 .yelp .stars {
-  position: absolute;
-  top: -40px;
-  left: -13px;
   margin: 0 auto;
   width: 240px;
   height: 40px;
@@ -295,13 +293,23 @@ body {
   background-position: center center;
 }
 
-.yelp .view:hover {
+.yelp .star-container {
+  position: absolute;
+  top: -50px;
+  left: -10px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.yelp:hover {
   color: yellow;
 }
 
+
 .yelp .view {
   font-family: sans-serif;
-  color: #fff;
+  color: inherit;
   text-transform: uppercase;
   letter-spacing: 16px;
   white-space: nowrap;

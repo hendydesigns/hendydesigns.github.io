@@ -2,7 +2,6 @@
 {%- assign page_paths = site.header_pages | default: default_paths -%}
 {% assign links = site.pages | sort: 'position'  %}
 
-
 <!-- <a class="nav-header" rel="author" href="{{ "/" | relative_url }}">BCCO NYC</a> -->
 
 <div class="fixed-nav">
@@ -10,10 +9,10 @@
     <div class="nav">
         <ul>
             {%- for link in links -%}
-                {%- if link.title != "CATALOG" -%}
+                {%- if link.title && link.title != "CATALOG" -%}
                     <li><a class="page-link" href="{{ link.url | relative_url }}">{{ link.title | escape }}</a></li>
                 {%- endif -%}
-                {%- if link.title == "CATALOG" -%}
+                {%- if link.title == "CATALOG"  -%}
                     <li><a class="page-link" href="https://www.sportswearcollection.com/?site=OZFKIJUWMO" target="_blank">{{ link.title | escape }}</a></li>
                 {%- endif -%}
             {%- endfor -%}

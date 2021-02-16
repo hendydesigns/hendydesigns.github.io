@@ -130,8 +130,8 @@ layout: main
 
 <div class="services">
     <h1 style="text-align: center; font-weight: 300; font-family: Raleway; text-transform: uppercase;">Our Services</h1>
-    {{ content }}
-
+    <!-- {{ content }} -->
+    {%- include services-grid.html -%}
 </div>
 
 <div class="Gallery-background">
@@ -212,7 +212,6 @@ layout: main
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.js"></script>
 
-<!-- Set hover for stars to match view on yelp text hover effect-->
 <script>
     jQuery('.yelp').hover( () => {
         jQuery('.stars').attr("fill", "yellow")
@@ -246,8 +245,8 @@ layout: main
 
     });
 
-    $(".services img").each(function() {
-        $(this).wrap( "<div class='services-image'></div>" );
-    });
+    // $(".services img").each(function() {
+    //     $(this).wrap( "<div class='services-image'></div>" );
+    // });
 
 </script>

@@ -2,8 +2,7 @@
 title: Custom Printed T-shirts NYC
 position: 0
 banner: true
-banner-text: "Due to Covid-19 all in house consultations are suspended.\nWE WILL BE
-  CLOSING AT 5PM ON 12/30 AND WILL CLOSED ON New years day: 1/1/21. \nHAPPY HOLIDAYS!"
+banner-text: "Due to Covid-19 all in house consultations are suspended.\n We hope you and your families stay safe!"
 banner-color: "#002eff"
 hours: 10:30am - 7:00pm
 layout: home

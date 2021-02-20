@@ -2,225 +2,270 @@
 layout: main
 ---
 
-<link rel="stylesheet" href="{{ "/assets/home.css" | relative_url }}">
-
-{% if page.banner == true %}
+<link rel="stylesheet" href="{{ "/assets/home.css" | relative_url }}"> {% if
+page.banner == true %}
 <div class="banner" style="background-color: {{page.banner-color}}">
-        <h1>{{ page.banner-text }}</h1>
-    </div>
+	<h1>{{ page.banner-text }}</h1>
+</div>
 {% endif %}
 
 <div class="Landing">
+	<div
+		class="loader-back"
+		style="background-image:url({{ '/images/loader.jpg' | relative_url }})"
+	></div>
+	<!--Homepage Swiper-->
+	<div class="swiper-container main-slider">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<figure
+					class="slide-bgimg"
+					style="background-image:url({{ '/images/home-1.jpg' | relative_url }})"
+				></figure>
+			</div>
 
-    <div class="loader-back" style="background-image:url({{ '/images/loader.jpg' | relative_url }})"></div>
-    <!--Homepage Swiper-->
-    <div class="swiper-container main-slider">
+			<div class="swiper-slide">
+				<figure
+					class="slide-bgimg"
+					style="background-image:url({{ 'images/home-2.jpg' | relative_url }})"
+				></figure>
+			</div>
 
-        <div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<figure
+					class="slide-bgimg"
+					style="background-image:url({{ 'images/home-3.jpg' | relative_url }})"
+				></figure>
+			</div>
 
-            <div class="swiper-slide">
-                <figure class="slide-bgimg" style="background-image:url({{ '/images/home-1.jpg' | relative_url }})">
-                </figure>
-            </div>
+			<div class="swiper-slide">
+				<figure
+					class="slide-bgimg"
+					style="background-image:url({{ 'images/home-4.jpg' | relative_url }})"
+				></figure>
+			</div>
+		</div>
 
-            <div class="swiper-slide">
-                <figure class="slide-bgimg" style="background-image:url({{ 'images/home-2.jpg' | relative_url }})">
-                </figure>
-            </div>
+		<!-- Add Arrows -->
+		<div class="swiper-button-prev swiper-button-white"></div>
+		<div class="swiper-button-next swiper-button-white"></div>
+	</div>
 
-            <div class="swiper-slide">
-                <figure class="slide-bgimg" style="background-image:url({{ 'images/home-3.jpg' | relative_url }})">
-                </figure>
-            </div>
+	<div class="headers">
+		<h1 class="page-title">BCCO NYC</h1>
 
-            <div class="swiper-slide">
-                <figure class="slide-bgimg" style="background-image:url({{ 'images/home-4.jpg' | relative_url }})">
-                </figure>
-            </div>
+		<!--Homepage Info-->
+		<h3 class="sub">SPECIALIZING IN RUSH & SAME DAY T-SHIRT PRINTING</h3>
 
-        </div>
+		<script>
+			!(function (e, t, n, s, i, c) {
+				(i = t.createElement(n)),
+					(c = t.getElementsByTagName(n)[0]),
+					(i.async = 1),
+					(i.src = s),
+					c.parentNode.insertBefore(i, c);
+			})(
+				window,
+				document,
+				"script",
+				"https://www.picktime.com/assets/booking.js"
+			);
+		</script>
 
-        <!-- Add Arrows -->
-        <div class="swiper-button-prev swiper-button-white"></div>
-        <div class="swiper-button-next swiper-button-white"></div>
+		<div class="info">
+			<div class="orders">
+				<h2>No Minimum order quantity</h2>
+				<h2>CUT OFF TIME FOR WALK-IN CLIENTS: 5:30PM</h2>
+			</div>
 
-    </div>
+			<a href="/quote" style="float: none">
+				<div class="button inline quote-inline">
+					<p>Quote Form</p>
+					<div class="inner"></div>
+				</div>
+			</a>
+			<a
+				href="https://www.picktime.com/cb069e89-9188-4a66-93fe-30e7c85cffeb"
+				class="ptbkbtn"
+				target="_blank"
+				style="float: none"
+			>
+				<div class="button inline drop-inline">
+					<p>PICKUP / DROP OFF</p>
+					<div class="inner"></div>
+				</div>
+			</a>
+		</div>
+	</div>
 
-
-    <div class="headers">
-
-        <h1 class="page-title">BCCO NYC</h1>
-
-        <!--Homepage Info-->
-        <h3 class="sub">SPECIALIZING IN RUSH & SAME DAY T-SHIRT PRINTING</h3>
-
-        <script>
-            ! function (e, t, n, s, i, c) {
-                i = t.createElement(n), c = t.getElementsByTagName(n)[0], i.async = 1,
-                    i.src = s, c.parentNode.insertBefore(i, c)
-            }(window, document, "script", "https://www.picktime.com/assets/booking.js");
-        </script>
-
-        <div class="info">
-            <div class="orders">
-                <h2>No Minimum order quantity</h2>
-                <h2>CUT OFF TIME FOR WALK-IN CLIENTS: 5:30PM</h2>
-            </div>
-
-            <a href="/quote"
-                style="float:none;">
-                <div class="button inline quote-inline">
-                    <p>Quote Form</p>
-                    <div class="inner"></div>
-                </div>
-            </a>
-            <a href="https://www.picktime.com/cb069e89-9188-4a66-93fe-30e7c85cffeb" class="ptbkbtn" target="_blank"
-                style="float:none;">
-                <div class="button inline drop-inline">
-                    <p>PICKUP / DROP OFF</p>
-                    <div class="inner"></div>
-                </div>
-            </a>
-        </div>
-
-    </div>
-
-
-    <a href="https://www.yelp.com/biz/bcco-nyc-custom-printing-new-york">
-        <div class="yelp">
-            <div class="stars" style="background-image:url({{ 'images/bccostars.png' | relative_url }})"></div>
-            <div class="view">View Yelp</div>
-        </div>
-    </a>
-
+	<a href="https://www.yelp.com/biz/bcco-nyc-custom-printing-new-york">
+		<div class="yelp">
+			<div
+				class="stars"
+				style="background-image:url({{ 'images/bccostars.png' | relative_url }})"
+			></div>
+			<div class="view">View Yelp</div>
+		</div>
+	</a>
 </div>
 
 <div class="social-links">
-    <a href="https://www.instagram.com/bcconyc/?hl=en">
-        <div class="social">
-            <i class="fa fa-instagram" aria-hidden="true"></i>
-            instagram
-        </div>
-    </a>
-    <a href="https://www.facebook.com/BccoNyc/">
-        <div class="social">
-            <i class="fa fa-facebook" aria-hidden="true"></i>
-            facebook
-        </div>
-    </a>
+	<a href="https://www.instagram.com/bcconyc/?hl=en">
+		<div class="social">
+			<i class="fa fa-instagram" aria-hidden="true"></i>
+			instagram
+		</div>
+	</a>
+	<a href="https://www.facebook.com/BccoNyc/">
+		<div class="social">
+			<i class="fa fa-facebook" aria-hidden="true"></i>
+			facebook
+		</div>
+	</a>
+</div>
+
+<div class="marqueeContainer">
+	<div class="marquee1">
+    <img class="marqueeImg" src="https://i.pinimg.com/originals/e6/3d/2c/e63d2c80d0603f41f9455a5389694fae.jpg" alt="">
+    <img class="marqueeImg" src="http://www.guambusinessmagazine.com/wp-content/uploads/2017/07/CBS_logo.svg.jpg" alt="">
+    <img class="marqueeImg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/MTV_International_2009.svg/1200px-MTV_International_2009.svg.png" alt="">
+    <img class="marqueeImg" src="https://upload.wikimedia.org/wikipedia/en/thumb/2/21/MTV2_logo_2013.svg/1200px-MTV2_logo_2013.svg.png" alt="">
+    <img class="marqueeImg" src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Food_Network_New_Logo.png" alt="">
+    <img class="marqueeImg" src="https://media.glassdoor.com/sqll/1683313/dj-bennett-squarelogo-1513675375885.png" alt="">
+    <img class="marqueeImg" src="https://yt3.ggpht.com/a/AGF-l7-Pt5ig45W7kn2MEhN7k2bJ70ANMh-BKIPLBQ=s900-mo-c-c0xffffffff-rj-k-no" alt="">
+  </div>
 </div>
 
 
 <div class="services">
-    <h1 style="text-align: center; font-weight: 300; font-family: Raleway; text-transform: uppercase;">Our Services</h1>
-    {{ content }}
-
+	<h1
+		style="
+			text-align: center;
+			font-weight: 300;
+			font-family: Raleway;
+			text-transform: uppercase;
+		"
+	>
+		Our Services
+	</h1>
+	{{ content }}
 </div>
 
 <div class="Gallery-background">
-    <h1>WHO WE'VE WORKED WITH</h1>
-    <div class="Gallery">
-        <!--Flexbox Grid-->
-        <div class="Grid Grid--cols-flex5">
-            <div class="Grid-cell">
-                <div class="Gallery-content-1 revealEm"></div>
-            </div>
-            <div class="Grid-cell">
-                <div class="Gallery-content-2 revealEm"></div>
-            </div>
-            <div class="Grid-cell">
-                <div class="Gallery-content-3 revealEm"></div>
-            </div>
-            <div class="Grid-cell">
-                <div class="Gallery-content-4 revealEm"></div>
-            </div>
-            <div class="Grid-cell">
-                <div class="Gallery-content-5 revealEm"></div>
-            </div>
-            <div class="Grid-cell">
-                <div class="Gallery-content-6 revealEm"></div>
-            </div>
-            <div class="Grid-cell">
-                <div class="Gallery-content-7 revealEm"></div>
-            </div>
-            <div class="Grid-cell">
-                <div class="Gallery-content-8 revealEm"></div>
-            </div>
-            <div class="Grid-cell">
-                <div class="Gallery-content-9 revealEm"></div>
-            </div>
-            <div class="Grid-cell">
-                <div class="Gallery-content-10 revealEm"></div>
-            </div>
-            <div class="Grid-cell">
-                <div class="Gallery-content-11 revealEm"></div>
-            </div>
-            <div class="Grid-cell">
-                <div class="Gallery-content-12 revealEm"></div>
-            </div>
-            <div class="Grid-cell">
-                <div class="Gallery-content-13 revealEm"></div>
-            </div>
-            <div class="Grid-cell">
-                <div class="Gallery-content-14 revealEm"></div>
-            </div>
-            <div class="Grid-cell">
-                <div class="Gallery-content-15 revealEm"></div>
-            </div>
-            <!--Flexbox Grid-->
-        </div>
-    </div>
+	<h1>WHO WE'VE WORKED WITH</h1>
+	<div class="Gallery">
+		<!--Flexbox Grid-->
+		<div class="Grid Grid--cols-flex5">
+			<div class="Grid-cell">
+				<div class="Gallery-content-1 revealEm"></div>
+			</div>
+			<div class="Grid-cell">
+				<div class="Gallery-content-2 revealEm"></div>
+			</div>
+			<div class="Grid-cell">
+				<div class="Gallery-content-3 revealEm"></div>
+			</div>
+			<div class="Grid-cell">
+				<div class="Gallery-content-4 revealEm"></div>
+			</div>
+			<div class="Grid-cell">
+				<div class="Gallery-content-5 revealEm"></div>
+			</div>
+			<div class="Grid-cell">
+				<div class="Gallery-content-6 revealEm"></div>
+			</div>
+			<div class="Grid-cell">
+				<div class="Gallery-content-7 revealEm"></div>
+			</div>
+			<div class="Grid-cell">
+				<div class="Gallery-content-8 revealEm"></div>
+			</div>
+			<div class="Grid-cell">
+				<div class="Gallery-content-9 revealEm"></div>
+			</div>
+			<div class="Grid-cell">
+				<div class="Gallery-content-10 revealEm"></div>
+			</div>
+			<div class="Grid-cell">
+				<div class="Gallery-content-11 revealEm"></div>
+			</div>
+			<div class="Grid-cell">
+				<div class="Gallery-content-12 revealEm"></div>
+			</div>
+			<div class="Grid-cell">
+				<div class="Gallery-content-13 revealEm"></div>
+			</div>
+			<div class="Grid-cell">
+				<div class="Gallery-content-14 revealEm"></div>
+			</div>
+			<div class="Grid-cell">
+				<div class="Gallery-content-15 revealEm"></div>
+			</div>
+			<!--Flexbox Grid-->
+		</div>
+	</div>
 </div>
 
-
 <div class="map-wrapper">
-    <div class="map-info">
-        <h1>Main Office</h1>
-        <p> Ed Sullivan Office Building <br> 1697 Broadway, Suite 302, NY, NY 10019</p>
-        <h2>Hours</h2>
-        <p><span>Monday - Friday</span> {{ page.hours }}</p>
-        <p><span>Saturday - Sunday</span> CLOSED</p>
-        <h2>Closest MTA Transit</h2>
-        <p>(B)(D)(E) Lines - 7th Ave Station</p>
-        <p>(N)(Q)(R) Lines - 57th St - 7th Ave Station</p>
-        <p>(1) Line - 50th Street Station</p>
-    </div>
-    <div class="mapouter">
-        <div class="gmap_canvas"><iframe width="100%" height="100%" id="gmap_canvas"
-                src="https://maps.google.com/maps?q=1697%20BROADWAY%2C%20SUITE%20302&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
-                href="https://www.embedgooglemap.net/blog/best-wordpress-themes/">elementary theme</a></div>
-    </div>
+	<div class="map-info">
+		<h1>Main Office</h1>
+		<p>
+			Ed Sullivan Office Building <br />
+			1697 Broadway, Suite 302, NY, NY 10019
+		</p>
+		<h2>Hours</h2>
+		<p><span>Monday - Friday</span> {{ page.hours }}</p>
+		<p><span>Saturday - Sunday</span> CLOSED</p>
+		<h2>Closest MTA Transit</h2>
+		<p>(B)(D)(E) Lines - 7th Ave Station</p>
+		<p>(N)(Q)(R) Lines - 57th St - 7th Ave Station</p>
+		<p>(1) Line - 50th Street Station</p>
+	</div>
+	<div class="mapouter">
+		<div class="gmap_canvas">
+			<iframe
+				width="100%"
+				height="100%"
+				id="gmap_canvas"
+				src="https://maps.google.com/maps?q=1697%20BROADWAY%2C%20SUITE%20302&t=&z=13&ie=UTF8&iwloc=&output=embed"
+				frameborder="0"
+				scrolling="no"
+				marginheight="0"
+				marginwidth="0"
+			></iframe
+			><a href="https://www.embedgooglemap.net/blog/best-wordpress-themes/"
+				>elementary theme</a
+			>
+		</div>
+	</div>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.js"></script>
 <script>
-   $(".headers").addClass("active");
-    window.onload = function () {
-        $(".main-slider").addClass("active");
-    }
+	$(".headers").addClass("active");
+	window.onload = function () {
+		$(".main-slider").addClass("active");
+	};
 
-    var mySwiper = new Swiper('.main-slider', {
-        // Optional parameters
-        loop: true,
+	var mySwiper = new Swiper(".main-slider", {
+		// Optional parameters
+		loop: true,
 
-        // If we need pagination
-        pagination: {
-            el: '.swiper-pagination',
-        },
-        autoplay: {
-            delay: 3000,
-        },
-        // Navigation arrows
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
+		// If we need pagination
+		pagination: {
+			el: ".swiper-pagination",
+		},
+		autoplay: {
+			delay: 3000,
+		},
+		// Navigation arrows
+		navigation: {
+			nextEl: ".swiper-button-next",
+			prevEl: ".swiper-button-prev",
+		},
+	});
 
-    });
-
-    $(".services img").each(function() {
-        $(this).wrap( "<div class='services-image'></div>" );
-    });
-
+	$(".services img").each(function () {
+		$(this).wrap("<div class='services-image'></div>");
+	});
 </script>

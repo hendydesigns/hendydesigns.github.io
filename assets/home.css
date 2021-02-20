@@ -282,12 +282,10 @@ body {
   transform: translate(-50%, 0);
   cursor: pointer;
   z-index: 10;
+  color: white;
 }
 
 .yelp .stars {
-  position: absolute;
-  top: -40px;
-  left: -13px;
   margin: 0 auto;
   width: 240px;
   height: 40px;
@@ -295,13 +293,23 @@ body {
   background-position: center center;
 }
 
-.yelp .view:hover {
+.yelp .star-container {
+  position: absolute;
+  top: -50px;
+  left: -10px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.yelp:hover {
   color: yellow;
 }
 
+
 .yelp .view {
   font-family: sans-serif;
-  color: #fff;
+  color: inherit;
   text-transform: uppercase;
   letter-spacing: 16px;
   white-space: nowrap;
@@ -674,11 +682,10 @@ body {
 }
 
 .services {
-  margin: 0 auto;
-  margin-top: 150px;
-  width: 1020px;
+  margin: 150px auto;
+  width: 90%;
 }
-
+/* 
 .services p {
   display: inline-block;
 }
@@ -719,7 +726,7 @@ body {
 .services-text {
   font-size: 14px;
   font-weight: 300;
-}
+} */
 
 .banner {
   position: fixed;
@@ -749,7 +756,7 @@ body {
   .services {
     width: 500px;
   }
-  .services-text {
+  /* .services-text {
     width: 500px;
     padding: 0;
     height: auto;
@@ -763,7 +770,7 @@ body {
   .services {
     width: 400px;
   }
-  .services-text {
+   .services-text {
     width: 400px;
     padding: 0;
     height: auto;
@@ -771,6 +778,7 @@ body {
   .services-image {
     width: 400px;
     height: 400px;
+  } 
   }
   .banner h1 {
     font-size: 1rem;
@@ -782,7 +790,7 @@ body {
   .services {
     width: 330px;
   }
-  .services-text {
+  /* .services-text {
     width: 330px;
     padding: 0;
     height: auto;
@@ -790,5 +798,6 @@ body {
   .services-image {
     width: 330px;
     height: 330px;
+
   }
 }

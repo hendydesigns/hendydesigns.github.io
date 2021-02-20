@@ -281,6 +281,7 @@ p {
   .buttons-wrapper {
     white-space: nowrap;
     right: 10px;
+    
   }
   .buttons-wrapper a {
     display: inline-block;

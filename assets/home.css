@@ -763,8 +763,8 @@ body {
   }
   .banner h1 {
     font-size: 1.1rem;
-  }
-}
+  } */
+} 
 
 @media(max-width: 550px) {
   .services {
@@ -798,11 +798,11 @@ body {
   .services-image {
     width: 330px;
     height: 330px;
-
-  }
+  } */
 }
 .marqueeContainer{
   width: 100%;
+  margin-top: 2rem;
 }
 .marqueeImg {
   max-height: 300px;

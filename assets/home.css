@@ -847,4 +847,10 @@ body {
   }
 }
 
-
+.quoteBtnContainer{
+  position: fixed;
+  display: none;
+  z-index: 1000;
+  right: 3%;
+  bottom: 20%;
+}

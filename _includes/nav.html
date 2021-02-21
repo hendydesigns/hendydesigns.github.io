@@ -9,13 +9,10 @@
     <div class="nav">
         <ul>
             {%- for link in links -%}
-                {%- if link.title && link.title != "CATALOG" -%}
-                    <li><a class="page-link" href="{{ link.url | relative_url }}">{{ link.title | escape }}</a></li>
-                {%- endif -%}
-                {%- if link.title == "CATALOG"  -%}
-                    <li><a class="page-link" href="https://www.sportswearcollection.com/?site=OZFKIJUWMO" target="_blank">{{ link.title | escape }}</a></li>
-                {%- endif -%}
+                <li><a class="page-link" href="{{ link.url | relative_url }}">{{ link.title | escape }}</a></li>
             {%- endfor -%}
+            <li><a class="page-link" href="https://www.sportswearcollection.com/?site=OZFKIJUWMO" target="_blank">CATALOG</a></li>
+            <li><a class="page-link" href="https://docs.google.com/forms/d/e/1FAIpQLScvKCwzgN3NyahgQ9gkLdEgnh_UwPfI0RBAanyCdaEdnkKWNA/viewform" target="_blank">QUOTE FORM</a></li>
         </ul>
     </div>
 

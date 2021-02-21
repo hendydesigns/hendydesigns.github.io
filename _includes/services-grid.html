@@ -128,13 +128,7 @@
 		gap: 5%;
     margin-bottom: 500px;
 	}
-  @media(max-width : 1000px) {
-  .services-container{
-    grid-template-columns: 1fr;
-    margin-bottom: 1750px;
-  }
-}
-	.service {
+    	.service {
 		margin: auto;
 		position: relative;
 		color: white;
@@ -147,7 +141,7 @@
 		left: 50%;
 		width: 80%;
 		transform: translate(-50%, -50%);
-		visibility: hidden;
+		/* visibility: hidden; */
 		opacity: 0;
 		align-items: center;
 		justify-content: center;
@@ -163,4 +157,20 @@
 		visibility: visible;
 		opacity: 0.85;
 	}
+
+    @media(max-width : 1100px) {
+        .services-container{
+            grid-template-columns: 1fr;
+            margin-bottom: 1750px;
+        }
+       
+    }
+
+    @media(max-width: 550px) {
+        .service {
+		width: 400px;
+		height: 400px;
+	    }
+    }
+
 </style>

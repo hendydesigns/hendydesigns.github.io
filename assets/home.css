@@ -817,6 +817,9 @@ body {
   animation: marquee1 30s linear infinite;
   background-color: transparent;
 }
+.marquee1:hover {
+  animation-play-state: paused;
+}
 
 @-moz-keyframes marquee1 {
   0% {

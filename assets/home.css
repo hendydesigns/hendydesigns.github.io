@@ -804,6 +804,14 @@ body {
   width: 100%;
   margin-top: 2rem;
 }
+.marqueeContainer h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 300;
+  color: #000;
+  line-height: 40px;
+}
 .marqueeImg {
   max-height: 300px;
   margin-left: 5%;
@@ -812,10 +820,13 @@ body {
 
 .marquee1 {
   display: flex;
-  -moz-animation: marquee1 10s linear infinite;
-  -webkit-animation: marquee1 10s linear infinite;
-  animation: marquee1 10s linear infinite;
+  -moz-animation: marquee1 30s linear infinite;
+  -webkit-animation: marquee1 30s linear infinite;
+  animation: marquee1 30s linear infinite;
   background-color: transparent;
+}
+.marquee1:hover {
+  animation-play-state: paused;
 }
 
 @-moz-keyframes marquee1 {
@@ -823,7 +834,7 @@ body {
     transform: translateX(100%);
   }
   100% {
-    transform: translateX(-200%);
+    transform: translateX(-425%);
   }
 }
 @-webkit-keyframes marquee1 {
@@ -831,7 +842,7 @@ body {
     transform: translateX(100%);
   }
   100% {
-    transform: translateX(-200%);
+    transform: translateX(-425%);
   }
 }
 @keyframes marquee1 {
@@ -841,9 +852,9 @@ body {
     transform: translateX(100%)
   }
   100% {
-    -moz-transform: translateX(-200%);
-    -webkit-transform: translateX(-200%);
-    transform: translateX(-200%);
+    -moz-transform: translateX(-475%);
+    -webkit-transform: translateX(-475%);
+    transform: translateX(-475%);
   }
 }
 

@@ -1,7 +1,7 @@
 ---
 title: About
 permalink: "/about/"
-position: 3
+position: 4
 descroption: 'Learn more about BCCO and what we do.'
 layout: about
 ---

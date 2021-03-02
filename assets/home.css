@@ -803,6 +803,7 @@ body {
 .marqueeContainer{
   width: 100%;
   margin-top: 2rem;
+  overflow: hidden;
 }
 .marqueeContainer h1 {
   font-family: "Raleway", sans-serif;

@@ -866,3 +866,6 @@ body {
   right: 3%;
   bottom: 20%;
 }
+.quoteBtnContainer .button{
+  box-shadow: 0 0 10px 5px rgba(28, 61, 243, 1);
+}

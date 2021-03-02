@@ -1,13 +1,13 @@
 <div class="container">
   <div class="services-nav">
-      <div class="nav-option">1</div>
-      <div class="nav-option">2</div>
-      <div class="nav-option">3</div>
-      <div class="nav-option">4</div>
-      <div class="nav-option">5</div>
-      <div class="nav-option">6</div>
-      <div class="nav-option">7</div>
-      <div class="nav-option">8</div>
+      <div class="nav-option"><a href="#screenPrint">Screen Printing</a></div>
+      <div class="nav-option"><a href="#dtg">DTG</a></div>
+      <div class="nav-option"><a href="#heat">Heat Transfer</a></div>
+      <div class="nav-option"><a href="#tags">Tags</a></div>
+      <div class="nav-option"><a href="#sticker">Stickers</a></div>
+      <div class="nav-option"><a href="#embroidery">Embroidery</a></div>
+      <div class="nav-option"><a href="#graphic">Graphics</a></div>
+      <div class="nav-option"><a href="#patch">Patches</a></div>
   </div>
   <div class="services-container">
     <div class="service" id="screenPrint">
@@ -39,7 +39,7 @@
       </div>
     </div>
     
-    <div class="service" id="dtg">
+    <div style="padding-top: 90px;" class="service" id="dtg">
       <h1>DTG</h1>
       <div class="service-info">
         <div class="service-text">
@@ -227,13 +227,14 @@
     display: none;
     z-index: 1000;
     bottom: 40%;
+    left: 5%;
   }
   .services-container{
     width: 90%;
     margin-left: 15%;
   }
   .service{
-    margin-bottom: 100px;
+    padding-top: 70px;
   }
   .service-text{
     width: 70%;
@@ -251,6 +252,32 @@
     width: 80%;
     margin-bottom: 40px;
   }
+  .nav-option > a{
+    text-decoration: none;
+  }
+  @media(max-width: 1100px) {
+    .nav-option > a{
+      font-size: 18px;
+  }
+  }
+  @media(max-width: 550px) {
+    .services-nav{
+      visibility: hidden;
+    }
+    .service-info{
+      flex-direction: column;
+    }
+    .services-container{
+      margin: auto;
+    }
+    .service-text, .service-photos{
+      width: 100%;
+    }
+  }
+
+
+  @media(max-width: 410px) {}
+  @media(max-width: 410px) {}
 </style>
 
 <script>
@@ -263,12 +290,12 @@
   }
 });
 
-jQuery('.services-nav').on('click', 'div.nav-option', function(e){
-  $('html, body').animate({
-        scrollTop: $('#sticker').offset().top
-    }, 'slow');
+// jQuery('.services-nav').on('click', 'div.nav-option', function(e){
+//   $('html, body').animate({
+//         scrollTop: $('e.target.href').offset().top
+//     }, 'slow');
 
-  })
+//   })
 
 
 </script>

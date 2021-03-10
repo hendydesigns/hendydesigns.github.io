@@ -1,5 +1,6 @@
 <div class="services-container">
 	<div class="service">
+		<h2 class="grid-text">VINYL PRINTING</h2>
 		<a href="/services#vinyl">
 			<img src="../images/services/vinyl.jpg" class="service-img" alt"vinyl">
 			<div class="service-text">
@@ -17,6 +18,7 @@
 		</a>
 	</div>
 	<div class="service">
+		<h2 class="grid-text">SCREEN PRINTING</h2>
 		<a href="/services#screenprint">
 			<img src="../images/services/screen.jpg" class="service-img" alt"screen">
 			<div class="service-text">
@@ -32,6 +34,7 @@
 		</a>
 	</div>
 	<div class="service">
+		<h2 class="grid-text">DTG</h2>
 		<a href="/services#DTG">
 			<img src="../images/services/dtg.png" class="service-img" alt"dtg">
 			<div class="service-text">
@@ -46,6 +49,7 @@
 		</a>
 	</div>
 	<div class="service">
+		<h2 class="grid-text">HEAT TRANSFER</h2>
 		<a href="/services#heat">
 			<img src="../images/services/HP-Htrnx-AirFusionIQ_medium.jpg" class="service-img" alt"heat">
 			<div class="service-text">
@@ -61,6 +65,7 @@
 		</a>
 	</div>
 	<div class="service">
+		<h2 class="grid-text">EMBROIDERY</h2>
 		<a href="/services#embroidery">
 			<img src="../images/services/emb.jpg" class="service-img" alt"embroidery">
 			<div class="service-text">
@@ -76,6 +81,7 @@
 		</a>
 	</div>
 	<div class="service">
+		<h2 class="grid-text">GRAPHIC DESIGN</h2>
 		<a href="/services#graphic">
 			<img src="../images/services/graphic.jpeg" class="service-img" alt"graphic-design">
 			<div class="service-text">
@@ -92,6 +98,7 @@
 		</a>
 	</div>
 	<div class="service">
+		<h2 class="grid-text">STICKERS</h2>
 		<a href="/services#stickers">
 			<img src="../images/services/sticker.jpg" class="service-img" alt"stickers">
 			<div class="service-text">
@@ -105,6 +112,7 @@
 		</a>
 	</div>
 	<div class="service">
+		<h2 class="grid-text">TAGS</h2>
 		<a href="/services#tags">
 			<img src="../images/services/tag.jpeg" class="service-img" alt"tags">
 			<div class="service-text">
@@ -119,6 +127,7 @@
 		</a>
 	</div>
 	<div class="service">
+		<h2 class="grid-text">PATCHES</h2>
 		<a href="/services#patches">
 			<img src="../images/services/patch.jpg" class="service-img" alt"patches">
 			<div class="service-text">
@@ -147,6 +156,7 @@
 		color: white;
 		width: 500px;
 		height: 500px;
+		text-align: center;
 	}
 	.service-text {
 		position: absolute;
@@ -154,7 +164,6 @@
 		left: 50%;
 		width: 80%;
 		transform: translate(-50%, -50%);
-		/* visibility: hidden; */
 		opacity: 0;
 		align-items: center;
 		justify-content: center;
@@ -171,9 +180,11 @@
 		height: 100%;
 	}
 	.service:hover .service-text {
-		visibility: visible;
 		opacity: 0.85;
 		cursor: pointer;
+	}
+	.grid-text {
+		display:none
 	}
 
     @media(max-width : 1100px) {
@@ -189,6 +200,21 @@
 		width: 400px;
 		height: 400px;
 	    }
+    }
+    @media(max-width: 400px) {
+        .service {
+		width: 300px;
+		height: 300px;
+	    }
+		.service:hover .service-text {
+		opacity: 0;
+		cursor: pointer;
+		}
+		.grid-text {
+			display:inline-block;
+			color:black;
+
+		}	
     }
 
 </style>

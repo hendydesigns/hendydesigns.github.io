@@ -22,7 +22,7 @@ page.banner == true %}
                 </figure>
             </div>
 
-            <div class="swiper-slide">
+            <!-- <div class="swiper-slide">
                 <figure class="slide-bgimg" style="background-image:url({{ 'images/home-2.jpg' | relative_url }})">
                 </figure>
             </div>
@@ -35,13 +35,13 @@ page.banner == true %}
             <div class="swiper-slide">
                 <figure class="slide-bgimg" style="background-image:url({{ 'images/home-4.jpg' | relative_url }})">
                 </figure>
-            </div>
+            </div> -->
 
         </div>
 
         <!-- Add Arrows -->
-        <div class="swiper-button-prev swiper-button-white"></div>
-        <div class="swiper-button-next swiper-button-white"></div>
+        <!-- <div class="swiper-button-prev swiper-button-white"></div> -->
+        <!-- <div class="swiper-button-next swiper-button-white"></div> -->
 
     </div>
 
@@ -208,24 +208,24 @@ page.banner == true %}
         $(".main-slider").addClass("active");
     }
 
-    var mySwiper = new Swiper('.main-slider', {
-        // Optional parameters
-        loop: true,
+    // var mySwiper = new Swiper('.main-slider', {
+    //     // Optional parameters
+    //     loop: true,
 
-        // If we need pagination
-        pagination: {
-            el: '.swiper-pagination',
-        },
-        autoplay: {
-            delay: 3000,
-        },
-        // Navigation arrows
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
+    //     // If we need pagination
+    //     pagination: {
+    //         el: '.swiper-pagination',
+    //     },
+    //     autoplay: {
+    //         delay: 3000,
+    //     },
+    //     // Navigation arrows
+    //     navigation: {
+    //         nextEl: '.swiper-button-next',
+    //         prevEl: '.swiper-button-prev',
+    //     },
 
-    });
+    // });
 
     // $(".services img").each(function() {
     //     $(this).wrap( "<div class='services-image'></div>" );

@@ -196,7 +196,7 @@
   transform: translate(-15px, 0) skew(25deg);
 }
 .fixed-nav {
-  color:white;
+  color:black;
   position: fixed;
   display: flex;
   justify-content: space-around;

@@ -8,11 +8,15 @@
     {%- if page_paths -%}
     <div class="nav">
         <ul>
-            {%- for link in links -%}
-                <li><a class="page-link" href="{{ link.url | relative_url }}">{{ link.title | escape }}</a></li>
-            {%- endfor -%}
-            <li><a class="page-link" href="https://www.sportswearcollection.com/?site=OZFKIJUWMO" target="_blank">CATALOG</a></li>
+           
+            <li><a class="page-link" href="/">HOME</a></li>
+            <li><a class="page-link" href="/services" >SERVICES</a></li>
             <li><a class="page-link" href="https://docs.google.com/forms/d/e/1FAIpQLScvKCwzgN3NyahgQ9gkLdEgnh_UwPfI0RBAanyCdaEdnkKWNA/viewform" target="_blank">QUOTE FORM</a></li>
+            <li><a class="page-link" href="https://www.sportswearcollection.com/?site=OZFKIJUWMO" target="_blank">CATALOG</a></li>
+            <li><a class="page-link" href="/about">ABOUT</a></li>
+            <li><a class="page-link" href="/contact">CONTACT</a></li>
+            <li><a class="page-link" href="/terms">TERMS</a></li>
+            <li><a class="page-link" href="/faqs">FAQ</a></li>
         </ul>
     </div>
 
@@ -23,11 +27,14 @@
         </div>
         <div id="m" class="mobile-menu">
             <ul>
-                {%- for link in links -%}
-                    {%- if link.title -%}
-                        <li><a class="page-link" href="{{ link.url | relative_url }}">{{ link.title | escape }}</a></li>
-                    {%- endif -%}
-                {%- endfor -%}
+                <li><a class="page-link" href="/">HOME</a></li>
+                <li><a class="page-link" href="/services" >SERVICES</a></li>
+                <li><a class="page-link" href="https://docs.google.com/forms/d/e/1FAIpQLScvKCwzgN3NyahgQ9gkLdEgnh_UwPfI0RBAanyCdaEdnkKWNA/viewform" target="_blank">QUOTE FORM</a></li>
+                <li><a class="page-link" href="https://www.sportswearcollection.com/?site=OZFKIJUWMO" target="_blank">CATALOG</a></li>
+                <li><a class="page-link" href="/about">ABOUT</a></li>
+                <li><a class="page-link" href="/contact">CONTACT</a></li>
+                <li><a class="page-link" href="/terms">TERMS</a></li>
+                <li><a class="page-link" href="/faqs">FAQ</a></li>
             </ul>
         </div>
     </div>

@@ -779,7 +779,6 @@ body {
     width: 400px;
     height: 400px;
   } 
-  }
   .banner h1 {
     font-size: 1rem;
     white-space: pre-line;
@@ -868,4 +867,7 @@ body {
 }
 .quoteBtnContainer .button{
   box-shadow: 0 0 10px 5px rgba(28, 61, 243, 1);
+}
+.quoteBtnContainer .button:hover{
+  box-shadow: none;
 }

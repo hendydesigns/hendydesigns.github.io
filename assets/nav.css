@@ -21,6 +21,7 @@
 }
 #button {
   position: absolute;
+  background-color: white;
   width: 30px;
   height: 30px;
   cursor: pointer;
@@ -47,7 +48,7 @@
   width: 100vw;
   height: 100vh;
   position: absolute;
-  background: linear-gradient(135deg, rgba(70, 9, 111, 1) 8%, rgba(28, 61, 243, 1) 43%, rgba(253, 29, 29, 1) 76%, rgba(252, 94, 47, 1) 85%, rgba(252, 112, 52, 1) 88%, rgba(252, 118, 53, 1) 89%, rgba(252, 176, 69, 1) 100%);
+  background: black;
   top: 0;
   z-index: 999;
   opacity: 0;
@@ -94,6 +95,7 @@
 
 .buttons-wrapper {
   height: 50px;
+  display: flex;
   z-index: 100;
 }
 .contact {
@@ -118,6 +120,7 @@
 .contact h2 a {
   text-decoration: underline;
   font-size: 18px;
+  color: white;
 }
 @media(max-width: 1700px) {
   .contact {
@@ -126,7 +129,7 @@
     margin-right: 0;
   }
   .contact h2 {
-    text-align: right;
+    text-align: center;
     display: block;
   }
 }
@@ -145,6 +148,7 @@
   overflow: hidden;
   border: 2px solid rgba(28, 61, 243, 1);
   box-sizing: border-box;
+  background-color: white;
 }
 .button p {
   margin: 0;
@@ -179,17 +183,21 @@
   transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
   transform: translate(-250px, 0) skew(25deg);
 }
+
 .button:hover {
   border: 2px solid rgba(255, 255, 255, 0);
 }
+
 .button:hover p {
   color: #fff;
 }
 .button:hover .inner {
+
   opacity: 1;
   transform: translate(-15px, 0) skew(25deg);
 }
 .fixed-nav {
+  color:white;
   position: fixed;
   display: flex;
   justify-content: space-around;
@@ -197,18 +205,17 @@
   height: 70px;
   top: 0px;
   left: 0px;
-  background: #fff;
+  background: black;
   width: 100%;
   z-index: 1000;
   border-bottom: 1px solid rgba(0, 177, 207, 0.1);
 }
 .nav ul li a {
-  color: #000;
+  color: white;
   font-family: "Raleway", sans-serif;
-  text-decoration: none;
-  font-size: 18px;
+  text-decoration: none; 
   padding-bottom: 10px;
-  border-bottom: ;
+  /* border-bottom: ; */
 }
 .nav ul li {
   position: relative;
@@ -253,7 +260,7 @@
     margin-right: 10px !important;
   }
   .nav ul li a {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 @media(max-width: 1240px) {
@@ -277,10 +284,12 @@ p {
   margin-inline-start: 0px !important;
   margin-inline-end: 0px !important;
 }
+
 @media(max-width: 540px) {
   .buttons-wrapper {
     white-space: nowrap;
     right: 10px;
+    
   }
   .buttons-wrapper a {
     display: inline-block;

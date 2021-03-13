@@ -1,3 +1,13 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.js"></script>
 <script src="{{ "/assets/nav.js" | relative_url }}"></script>
+<script>
+  $(document).scroll(function() {
+  var y = $(this).scrollTop();
+  if (y > 200) {
+    $('.quoteBtnContainer').fadeIn();
+  } else {
+    $('.quoteBtnContainer').fadeOut();
+  }
+});
+</script>

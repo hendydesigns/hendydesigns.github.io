@@ -52,7 +52,7 @@
         <a href="https://www.salvationarmyusa.org/usn/ways-to-give/">Salvation Army</a>
       </div>
       <div class="partner">
-        <a href="http://www.churchofthemediator.org/donate.html">Church of the Mediator</a>
+        <a href="http://www.churchofthemediator.org/donate.html"><img class="church" src="../images/Church of the mediator.png" alt="" /></a>
       </div>
     </div>
   </div>
@@ -129,6 +129,32 @@
     width: 75px;
     height: 75px;
   }
+  .church{
+    width: 30%;
+  }
+  @media(max-width: 1000px) {
+    .church{
+    width: 40%;
+  }
+}
+@media(max-width: 700px) {
+  .church{
+    width: 50%;
+  }
+}
+@media(max-width: 400px) {
+  .church{
+    width: 75%;
+  }
+  .buttonContainer{
+    width: 100%;
+    height: inherit;
+    /* align-items: initial; */
+  }
+  .btn{
+    font-size: 12px;
+  }
+}
 </style>
 
 <script>

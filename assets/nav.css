@@ -102,8 +102,8 @@
   display: inline-block;
   padding: 0;
   margin-right: 30px;
-  /* -webkit-transform: translate(0, -20px); */
-  transform: translate(0, -20px);
+  /* -webkit-transform: translate(0, 0px);
+  transform: translate(0, 0px); */
   margin: auto;
 }
 .contact h2 {
@@ -125,8 +125,8 @@
 }
 @media(max-width: 1700px) {
   .contact {
-    -webkit-transform: translate(0, -10px);
-    transform: translate(0, -10px);
+    /* -webkit-transform: translate(0, -10px);
+    transform: translate(0, -10px); */
     margin-right: 0;
   }
   .contact h2 {
@@ -306,8 +306,8 @@ p {
     letter-spacing: 1px;
   }
   .contact {
-    -webkit-transform: translate(0, 0);
-    transform: translate(0, 0);
+    /* -webkit-transform: translate(0, 0);
+    transform: translate(0, 0); */
   }
   .contact * {
     font-size: 12px !important;

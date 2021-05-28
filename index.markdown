@@ -2,7 +2,8 @@
 title: Custom Printed T-shirts NYC
 position: 0
 banner: true
-banner-text: Due to Covid-19 all in house consultations are suspended.
+banner-text: "WE WILL BE CLOSED FOR MEMORIAL DAY - MONDAY  5/31 AND WE WILL REOPEN
+  TUESDAY 6/1. \nDue to Covid-19 all in house consultations are suspended."
 banner-color: "#002eff"
 layout: home
 ---

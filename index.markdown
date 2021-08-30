@@ -2,8 +2,7 @@
 title: Custom Printed T-shirts NYC
 position: 0
 banner: true
-banner-text: 'WE WILL BE CLOSED ON MONDAY  JULY 5TH AND WILL REOPEN TUESDAY 7/6 at
-  10:30 AM '
+banner-text: "***WE WILL BE CLOSED ON MONDAY 9/6 for Labor Day***\n\n"
 banner-color: "#002eff"
 layout: home
 ---

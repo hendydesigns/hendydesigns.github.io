@@ -2,7 +2,9 @@
 title: Custom Printed T-shirts NYC
 position: 0
 banner: true
-banner-text: "\n"
+banner-text: |2-
+
+  BCCO WILL BE CLOSED FOR THANKSGIVING STARTING 11/25 AND WILL REOPEN MONDAY 11/29. WE WISH YOU ALL A WONDERFUL HOLIDAY!
 banner-color: "#002eff"
 layout: home
 ---

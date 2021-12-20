@@ -2,10 +2,10 @@
 title: Custom Printed T-shirts NYC
 position: 0
 banner: true
-banner-text: "BCCO NYC will operate the following holiday schedule:\n\nDec 24 ( Xmas
-  Eve) close at 5 pm\nDec 27 Closed ( Christmas Day observed)\nDec 28.29.30. Normal
-  schedule: 1030am to 7 pm\nDec 31 ( New Year's Eve) Closed ( New Years Day observed).\n\nMerry
-  Christmas and Happy New Year! "
+banner-text: |
+  BCCO NYC will operate the following holiday schedule:Dec 24 ( Xmas Eve) close at 5 pm
+  Dec 27 Closed ( Christmas Day observed)//Dec 28.29.30. Normal schedule: 1030am to 7 pm
+  //Dec 31 ( New Year's Eve) Closed ( New Years Day observed).
 banner-color: "#002eff"
 layout: home
 ---

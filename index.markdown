@@ -2,8 +2,7 @@
 title: Custom Printed T-shirts NYC
 position: 0
 banner: true
-banner-text: WE WILL BE CLOSED ON MONDAY FOR MEMORIAL DAY! PLEASE NOTE OUR HOURS HAVE
-  CHANGED! Monday - Friday 9:30AM - 6:00PM.
+banner-text: PLEASE NOTE OUR HOURS HAVE CHANGED! Monday - Friday 9:30AM - 6:00PM.
 banner-color: "#002eff"
 layout: home
 ---

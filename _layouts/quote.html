@@ -1,0 +1,28 @@
+---
+layout: main
+---
+
+<link rel="stylesheet" href="{{ "/assets/info.css" | relative_url }}">
+
+<div class="page-header">
+  <div class="header-background" style="background-image: url({{ '/images/home-1.jpg' | relative_url }})"></div>
+  <div class="overlay"></div>
+  <div class="page-intro">
+    <span>{{ page.title | escape }}</span>
+  </div>
+</div>
+
+<div class="info-wrapper">
+  <div class="info-background" style="background-image:url({{ '/images/info.jpg' | relative_url }})"></div>
+  <div class="info">
+    <iframe src="http://bcconyc.deco-apparel.com/home/request_quote" width="640" height="1082" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  </div>
+</div>
+
+<script>
+  window.onload = function() {
+    $(".page-intro").addClass("active");
+    $(".header-background").addClass("active");
+  }
+</script> 
+

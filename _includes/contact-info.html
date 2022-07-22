@@ -1,0 +1,149 @@
+<div class="container">
+ 
+  <h1>Contact Us</h1>
+  <!-- <h3>INFO@BCCONYC.COM</h3> -->
+  <h3><a href="mailto:info@bcconyc.com" target="_blank">INFO@BCCONYC.COM</a> </h3>
+  <h3><a href=tel:347-836-9116">(347) 836-9116</a></h3>
+
+  <h1>Main Office</h1>
+  <p> Ed Sullivan Office Building <br> 1697 Broadway, Suite 302, NY, NY 10019</p>
+
+  <h2>Hours</h2>
+  <p><span>Monday - Friday</span> {{ page.hours }}</p>
+  <p><span>Saturday - Sunday</span> CLOSED</p>
+  
+  <h2>Closest MTA Transit</h2>
+  <p>(B)(D)(E) Lines - 7th Ave Station</p>
+  <p>(N)(Q)(R) Lines - 57th St - 7th Ave Station</p>
+  <p>(1) Line - 50th Street Station</p>
+  <div class="mapouter">
+		<div class="gmap_canvas">
+			<iframe
+				width="100%"
+				height="100%"
+				id="gmap_canvas"
+				src="https://maps.google.com/maps?q=1697%20BROADWAY%2C%20SUITE%20302&t=&z=13&ie=UTF8&iwloc=&output=embed"
+				frameborder="0"
+				scrolling="no"
+				marginheight="0"
+				marginwidth="0"
+			></iframe
+			><a href="https://www.embedgooglemap.net/blog/best-wordpress-themes/"
+				></a
+			>
+		</div>
+	</div>
+</div>
+
+  <style>
+
+    .container {
+      text-align:center;
+    }
+
+    .contact p {
+      margin: 0;
+      padding: 0;
+    }
+
+    .contact-form {
+      width: 800px;
+      margin: 0 auto;
+    }
+
+    @media (max-width: 800px) {
+      .contact-form {
+        width: 100%;
+      }
+    }
+
+    .contact-row {
+      width: 100%;
+      border-bottom: 1px solid #000;
+    }
+
+    .contact-row:nth-of-type(1) {
+      border-top: 5px solid #000;
+    }
+
+    .contact-info {
+      display: inline-block;
+      width: 49%;
+      padding-bottom: 20px;
+    }
+
+    .contact-message {
+      width: 100%;
+    }
+
+    .contact-info:nth-of-type(2) {
+      margin-left: -5px;
+      border-left: 1px solid #000;
+    }
+
+    .contact-label {
+      font-family: "Raleway";
+      font-weight: 500;
+      font-size: 16px;
+      text-transform: uppercase;
+      display: block;
+      padding-left: 10px;
+      padding-top: 10px;
+      color: #000;
+    }
+
+    .contact-input {
+      width: 100%;
+      font-size: 20px;
+      font-family: "Raleway";
+      border: 0;
+      padding-left: 10px;
+      background: none;
+      color: #000;
+    }
+
+    @media (max-width: 800px) {
+      .contact-input {
+        font-size: 14px;
+      }
+    }
+
+    .inputMessage {
+      width: 100%;
+      font-size: 16px;
+      height: 80px;
+      padding-left: 10px;
+      border: 0;
+      resize: none;
+      background: none;
+      color: #000;
+    }
+
+    @media (max-width: 800px) {
+      .inputMessage {
+        font-size: 12px;
+        height: 140px;
+      }
+    }
+
+    .contact-send {
+      width: 100%;
+      height: 50px;
+      border: 1px solid #fff;
+    }
+
+    #email-submit-btn {
+      height: 50px;
+      cursor: pointer;
+      background: #222;
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 14px;
+      letter-spacing: 5px;
+      -webkit-appearance: none;
+    }
+
+    *:focus {
+      outline: none;
+    }
+  </style>

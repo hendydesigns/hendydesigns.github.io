@@ -72,13 +72,7 @@ page.banner == true %}
                     <div class="inner"></div>
                 </div>
             </a>
-            <a href="https://www.picktime.com/cb069e89-9188-4a66-93fe-30e7c85cffeb" class="ptbkbtn" target="_blank"
-                style="float:none;">
-                <div class="button inline drop-inline">
-                    <p>PICKUP / DROP OFF</p>
-                    <div class="inner"></div>
-                </div>
-            </a>
+           
         </div>
 
     </div>
@@ -207,27 +201,29 @@ page.banner == true %}
         $(".main-slider").addClass("active");
     }
 
-    // var mySwiper = new Swiper('.main-slider', {
-    //     // Optional parameters
-    //     loop: true,
 
-    //     // If we need pagination
-    //     pagination: {
-    //         el: '.swiper-pagination',
-    //     },
-    //     autoplay: {
-    //         delay: 3000,
-    //     },
-    //     // Navigation arrows
-    //     navigation: {
-    //         nextEl: '.swiper-button-next',
-    //         prevEl: '.swiper-button-prev',
-    //     },
+    var mySwiper = new Swiper('.main-slider', {
+        // Optional parameters
+        loop: true,
 
-    // });
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+        },
+        autoplay: {
+            delay: 3000,
+        },
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
 
-    // $(".services img").each(function() {
-    //     $(this).wrap( "<div class='services-image'></div>" );
-    // });
+    });
+
+    $(".services img").each(function() {
+        $(this).wrap( "<div class='services-image'></div>" );
+    });
+
 
 </script>

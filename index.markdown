@@ -2,7 +2,8 @@
 title: Custom Printed T-shirts NYC
 position: 0
 banner: true
-banner-text: PLEASE NOTE OUR HOURS HAVE CHANGED! Monday - Friday 9:30AM - 6:00PM.
+banner-text: "**WE WILL BE CLOSED FOR LABOR DAY 9/6 AND WILL REOPEN 9/7 at 9:30AM**\nPLEASE
+  NOTE OUR HOURS HAVE CHANGED! Monday - Friday 9:30AM - 6:00PM. \n\n"
 banner-color: "#002eff"
 layout: home
 ---

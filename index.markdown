@@ -98,3 +98,12 @@ Custom patches are one of the finest forms of embroidery. Patches are excellent 
 There is no minimum or maximum for patch orders, and we guarantee you will love our work.
 </div>
 
+<div class="services-text">
+<h2>LIVE EVENTS</h2>
+ON SITE LIVE PRINTING!
+
+BCCONYC offers on site printing for corporate events, trade shows, pop up stores, parties, photo shoots, or any other special occasions of interest.  
+Customize your provided items or order from our catalog!
+We provide a heat press, vinyl cutter, vinyl (1, 2 , or 3 color), computer, table, power strips, pick, ruler, parchment paper and an expert printer. 
+For further details and availability contact us at info@bcconyc.com or call 347 836 9116
+</div>

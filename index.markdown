@@ -2,8 +2,9 @@
 title: Custom Printed T-shirts NYC
 position: 0
 banner: true
-banner-text: "PLEASE NOTE OUR HOURS HAVE CHANGED! Monday - Friday 9:30AM - 6:00PM.
-  \n\n"
+banner-text: 'WE OFFER ON SITE LIVE PRINTING! EMAIL INFO@BCCONYC.com for more information!!
+
+'
 banner-color: "#002eff"
 layout: home
 ---
@@ -96,14 +97,4 @@ We only require a minimum of 50 stickers to begin an order! And remember, everyo
 Custom patches are one of the finest forms of embroidery. Patches are excellent for outerwear such as uniforms, button down jackets, hats, as well as many other garments.
 <br><br>
 There is no minimum or maximum for patch orders, and we guarantee you will love our work.
-</div>
-
-<div class="services-text">
-<h2>LIVE EVENTS</h2>
-ON SITE LIVE PRINTING!
-
-BCCONYC offers on site printing for corporate events, trade shows, pop up stores, parties, photo shoots, or any other special occasions of interest.  
-Customize your provided items or order from our catalog!
-We provide a heat press, vinyl cutter, vinyl (1, 2 , or 3 color), computer, table, power strips, pick, ruler, parchment paper and an expert printer. 
-For further details and availability contact us at info@bcconyc.com or call 347 836 9116
 </div>

@@ -2,11 +2,8 @@
 title: Custom Printed T-shirts NYC
 position: 0
 banner: true
-banner-text: 'BCCO NYC will be closed Thursday, November 24th and Friday, November
-  25th. We will resume our regular business hours on Monday, November 28th. **WE OFFER
-  ON SITE LIVE PRINTING! EMAIL INFO@BCCONYC.com for more information!!**
-
-'
+banner-text: " **WE OFFER ON SITE LIVE PRINTING AT YOUR EVENT! EMAIL INFO@BCCONYC.com
+  for more information!!**\n"
 banner-color: "#002eff"
 layout: home
 ---

@@ -2,9 +2,8 @@
 title: Custom Printed T-shirts NYC
 position: 0
 banner: true
-banner-text: " ***Holiday Closure: WE WILL BE CLOSED 12/26 - 1/2/23 for Christmas
-  break and will reopen on 1/3/2022. Happy Holidays!*** WE OFFER ON SITE LIVE PRINTING
-  AT YOUR EVENT! EMAIL INFO@BCCONYC.com for more information!!"
+banner-text: WE OFFER ON SITE LIVE PRINTING AT YOUR EVENT! EMAIL INFO@BCCONYC.com
+  for more information!
 banner-color: "#002eff"
 layout: home
 ---

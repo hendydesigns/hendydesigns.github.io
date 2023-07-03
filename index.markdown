@@ -2,8 +2,8 @@
 title: Custom Printed T-shirts NYC
 position: 0
 banner: true
-banner-text: WE OFFER ON SITE LIVE PRINTING AT YOUR EVENT! EMAIL INFO@BCCONYC.com
-  for more information!
+banner-text: WE WILL BE CLOSED JULY 4TH. WE WILL REOPEN JULY 5TH @ 9:30AM.     WE
+  OFFER ON SITE LIVE PRINTING AT YOUR EVENT! EMAIL INFO@BCCONYC.com for more information!
 banner-color: "#002eff"
 layout: home
 ---

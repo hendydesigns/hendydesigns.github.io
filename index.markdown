@@ -1,5 +1,5 @@
 ---
-title: Custom Printed T-shirts NYC
+title: Same Day Custom Printed T-shirts NYC
 position: 0
 banner: true
 banner-text: WE OFFER ON SITE LIVE PRINTING AT YOUR EVENT! EMAIL INFO@BCCONYC.com

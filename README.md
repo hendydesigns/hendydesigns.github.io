@@ -1,3 +1,5 @@
+# THIS SITE IS NOW DEPRECATED AND REDIRECTS TO https://www.bcconyc.deco-apparel.com/
+
 # minima
 
 *Minima is a one-size-fits-all Jekyll theme for writers*. It's Jekyll's default (and first) theme. It's what you get when you run `jekyll new`.
